@@ -1,0 +1,63 @@
+<div class="testheading">
+  <h2>{{ section.settings.heading }}</h2>
+</div>
+ <div class="newtestimonial">
+  
+    {% for block in section.blocks %}
+   <div class="newtest">
+   <div class="newtest_img">
+    {% if block.settings.image %}
+     <img src="{{ block.settings.image | img_url:'original' }}">
+    {% endif %}
+    </div>
+<div class="newtest_text">
+  {{ block.settings.text  }}
+</div>
+   </div>
+    {% endfor %}
+    
+</div>
+
+
+{% schema %}
+  {
+    "name": "New Testimonials",
+    "settings": [
+      {
+                    "type": "textarea",
+                    "id": "heading",
+                    "label": "Heading"
+                }
+    ],
+      "blocks": [
+        {
+            "type": "Testimonials",
+            "name": "Testimonials",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+               {
+                    "type": "textarea",
+                    "id": "text",
+                    "label": "Text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "New Testimonials",
+            "category": "New Testimonials"
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

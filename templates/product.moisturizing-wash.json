@@ -1,0 +1,444 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {}
+    },
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_onmob": true
+          }
+        },
+        "a8544242-5ab2-42f0-ac82-a377d79ba242": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "6633173a-95cb-44c9-97b3-4592f19629ea": {
+          "type": "text",
+          "settings": {
+            "show_onmob": true,
+            "text": "{{ product.metafields.my_fields.tagline_under_product_title.value }}",
+            "text_style": "body"
+          }
+        },
+        "a3b48c4f-d17c-4444-807c-a9d6fdaaeff8": {
+          "type": "short_description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "d0c0f832-3870-43fb-8f3c-8d3b41550aed": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        },
+        "text_jkCjMR": {
+          "type": "text",
+          "settings": {
+            "show_onmob": true,
+            "text": "<center><h4>100% No-Risk Money Back Guarantee<\/h4><\/center>",
+            "text_style": "body"
+          }
+        },
+        "6e8deca5-11ef-45ce-9bf1-6bfdc4cd0d93": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badges_800_x_275_px_800_x_215_px_-3_copy.png",
+            "image_link": "",
+            "image_width": 100,
+            "image_alignment": "start"
+          }
+        },
+        "d49b0f9f-4855-454d-ae62-9a66c82ee406": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT IT IS",
+            "content": "",
+            "liquid": "{{ product.metafields.my_fields.what_is_it }}",
+            "default_open": true
+          }
+        },
+        "cc8fbfd5-ef1c-431c-80ae-d63c1505d448": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHY YOU NEED IT",
+            "content": "",
+            "liquid": "{{ product.metafields.my_fields.why_you_need_it }}",
+            "default_open": true
+          }
+        },
+        "5d910772-0233-4945-af20-307fcfdd1ca3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FULL INGREDIENTS LIST (NOTHING TO HIDE)",
+            "content": "<p><strong>Key Ingredients:<\/strong><\/p><p>· <strong>Red Sea Algae<\/strong> retains moisture and boosts the skin barrier to clarify and clean skin. <br\/>· <strong>Alpha Hydroxy Acid<\/strong> helps with renewing skin cells for a more plump and youthful appearance.<br\/>· <strong>Quillaja<\/strong> soothes dry skin and prevents cracking, along with relieving itching.<br\/>· <strong>Green Tea<\/strong> promotes skin’s natural healing abilities with antioxidants to protect from free radicals and keep skin healthy.<br\/>· <strong>Chlorophyll<\/strong> reduces the appearance of swelling, irritation, and redness.<br\/>· <strong>Grapefruit Peel Oil<\/strong> penetrates pores deeply to dissolve impurities without stripping the oils from your skin. <\/p><p><strong>Full Ingredients List:<br\/><\/strong>Purified Spring Water, Glycerin, Pentylene Glycol, Disodium Cocoyl Glutamate, Sorbitan Oleate Decylglucoside Crosspolymer, Xanthan Gum, Chondrus Crispus (Red Algae) Extract, Lactic Acid, Sodium Cocoyl Glutamate, Punica Granatum (Pomegranate) Fruit Extract, Foeniculum Vulgare (Fennel) Seed Extract, Citrus Grandis (Grapefruit) Peel Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Quillaja Saponaria (Murillo Bark) Extract, Camellia Sinensis (Green Tea) Leaf Extract, Chlorophyll (Copper from Chlorophyllin), Sodium Benzoate<\/p>",
+            "liquid": "",
+            "default_open": true
+          }
+        },
+        "3bc3aeab-d035-4092-b420-ac25d0ce39d0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "content": "",
+            "liquid": "{{ product.metafields.my_fields.how_to_use }}",
+            "default_open": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "a8544242-5ab2-42f0-ac82-a377d79ba242",
+        "6633173a-95cb-44c9-97b3-4592f19629ea",
+        "a3b48c4f-d17c-4444-807c-a9d6fdaaeff8",
+        "price",
+        "variant_picker",
+        "d0c0f832-3870-43fb-8f3c-8d3b41550aed",
+        "buy_buttons",
+        "text_jkCjMR",
+        "6e8deca5-11ef-45ce-9bf1-6bfdc4cd0d93",
+        "d49b0f9f-4855-454d-ae62-9a66c82ee406",
+        "cc8fbfd5-ef1c-431c-80ae-d63c1505d448",
+        "5d910772-0233-4945-af20-307fcfdd1ca3",
+        "3bc3aeab-d035-4092-b420-ac25d0ce39d0"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "layout-1",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": false,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": false,
+        "use_sticky_atc_on_mobile": false,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": true,
+        "sticky_atc_compare": false
+      }
+    },
+    "1646932136b2c24d82": {
+      "type": "custom-content",
+      "settings": {
+        "hideondesk": false,
+        "heading": "100% FREE FROM",
+        "subheading": "",
+        "description": "PHTHALATES  &nbsp;&nbsp;  PARABENS  &nbsp;&nbsp;    SULFATES   &nbsp;&nbsp;   GMOS    &nbsp;&nbsp;  ALCOHOLS    &nbsp;&nbsp;  DYES   &nbsp;&nbsp;  ARTIFICIAL FRAGRANCE   &nbsp;&nbsp;   TOXINS    &nbsp;&nbsp;  ANIMAL TESTING",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16469274172725f22b": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": true,
+        "heading": "",
+        "subheading": "",
+        "container": "w-full",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "image": "shopify:\/\/shop_images\/WASH-ingredients-shot_1024x1024_03d5609e-a81b-4cf6-89d1-dc7b2d465f75.webp",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 50,
+        "mobile_text_gap": 20,
+        "title": "The Ingredients Story",
+        "sub_title": "CONTENT MATTERS",
+        "text": "<p><strong>This gentle sulfate-free cleanser gets its lather from mother nature, not synthetics. <\/strong>A lightweight pH-balanced gel cleanser loaded with seaweed, green tea and chlorophyll to gently remove makeup, bacteria, and daily pollutants with antioxidants. Red sea algae is nutrient-rich and emollient with natural amino acids and peptides. This super algae is one of nature’s most potent antioxidants classified as a carotenoid. It gently and deeply removes impurities while fighting free radicals 65 times stronger than Vitamin C. Quillaja\/Murillo Bark is a super-cleansing plant extract from the Chilean Soap Bark Tree for the cleanest and smoothest face wash experience. And of course, our foundation ingredient is the superfood plant-based miracle-nutrient, Green Tea.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "right",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "164693216166422905": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": true,
+        "heading": "",
+        "subheading": "",
+        "container": "w-full",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "image": "shopify:\/\/shop_images\/WASH-Science-new2_720x_2b74d244-b05e-4cd2-95e6-4d0b93fe3eb7.jpg",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 50,
+        "mobile_text_gap": 20,
+        "title": "The Science Behind it",
+        "sub_title": "HOW IT WORKS",
+        "text": "<p>In order to get the most out of serums and moisturizers, most of our skincare regimens involve layering, this luscious wash is a gentle foaming water-based gel cleanser. Cream-based cleansers can leaves a light oil film on your skin and can block effective results.<\/p><p>This oil-free multi functioning cleanser is formulated with natural emollient surfactants to moisturize and bind water to the skin. Ever-so-gently, the non-friction exfoliant of lactic acid (AHA) works to slough the pollutants out that collect between skin cells to leave your skin looking clean and supple.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16469322320fdff7f8": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": true,
+        "heading": "",
+        "subheading": "",
+        "container": "w-full",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "image": "shopify:\/\/shop_images\/Why-INYOURFACE-WASH_c40bffd3-db6f-4bee-92b2-b595cd3452d5.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 50,
+        "mobile_text_gap": 20,
+        "title": "Why MOISTURIZING WASH?",
+        "sub_title": "CRAFTED WITH PURPOSE",
+        "text": "<p>This potent plant-based formula is powered by the natural cleansing and water-binding properties of the Chilean Soap Murillo Bark Tree. Also called, \"Quillaia,\" the word derives from the native Mapuche word <em>Quillean<\/em> meaning “to wash.”<\/p><p>This cleansing process promotes cellular renewal for younger, plumper-looking skin. Lactic acid increases ceramides in the skin's protective barrier and improves the look of hyperpigmentation and congested skin. The Red Sea Algae is full of humectants to draw in moisture. Its skin-loving properties come from the natural minerals in seaweed including omega-3 fatty acids, zinc, magnesium, and vitamins B and C to help improve the look of hyperpigmentation and nourish your skin.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "right",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "164693227426351781": {
+      "type": "custom-content",
+      "blocks": {
+        "00c9a3e1-05ac-4082-8a71-3fa627a737e5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IYF-WASH-Step1_360x_41a70d80-3fb6-4325-b99d-0c86ef6dd126.webp",
+            "heading": "",
+            "image_heading": "<p><strong>STEP 1: APPLY<\/strong><\/p><p>Apply 1-2 pumps on damp hands.<\/p><p>Note: Avoid contact with eyes. External use only. <\/p>",
+            "link": "",
+            "width": "25%",
+            "alignment": "start",
+            "block_custom_class": ""
+          }
+        },
+        "c191af6c-865f-4e3a-92ae-3fea3f98a761": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IYF-WASH-Step2_360x_5158cfc5-783b-4b78-b9a4-573a43eefc1c.webp",
+            "heading": "",
+            "image_heading": "<p><strong>STEP 2: EMULSIFY & MASSAGE<\/strong><\/p><p>Emulsify to a light lather then massage onto dry face for a minimum of 30 seconds to benefit from the antioxidants.<\/p>",
+            "link": "",
+            "width": "25%",
+            "alignment": "start",
+            "block_custom_class": ""
+          }
+        },
+        "2d0280b9-8134-4563-bf30-0f805d6a3b23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IYF-WASH-Step3_360x_537c1823-842d-4b0a-885c-f43d06a77486.webp",
+            "heading": "",
+            "image_heading": "<p><strong>STEP 3: RINSE<\/strong><\/p><p>Rinse thoroughly with warm water and wash cloth.<\/p>",
+            "link": "",
+            "width": "25%",
+            "alignment": "start",
+            "block_custom_class": ""
+          }
+        },
+        "751a73c8-e6de-493b-a07e-bc96d05f8822": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IYF-WASH-Step4_360x_876d1c49-3ff7-4b13-88f1-9462f4136376.webp",
+            "heading": "",
+            "image_heading": "<p><strong>STEP 4: REPEAT<\/strong><\/p><p>Use both morning and night. Safe for all skin types.<\/p>",
+            "link": "",
+            "width": "25%",
+            "alignment": "start",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "00c9a3e1-05ac-4082-8a71-3fa627a737e5",
+        "c191af6c-865f-4e3a-92ae-3fea3f98a761",
+        "2d0280b9-8134-4563-bf30-0f805d6a3b23",
+        "751a73c8-e6de-493b-a07e-bc96d05f8822"
+      ],
+      "settings": {
+        "hideondesk": false,
+        "heading": "How to apply MOISTURIZING WASH",
+        "subheading": "TIPS FROM DENICE",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "You Might Also Like",
+        "text_align": "left",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    },
+    "recent-viewed-products": {
+      "type": "recent-viewed-products",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "heading": "Recently Viewed Products",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 30,
+        "enable_slider": true
+      }
+    },
+    "1646932468fd9e808e": {
+      "type": "product-reviews",
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "heading": "Reviews",
+        "custom_liquid": ""
+      }
+    },
+    "16504806046cd96f98": {
+      "type": "apps",
+      "blocks": {
+        "f75db263-7317-43f9-b8f5-58adc056ad81": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "f75db263-7317-43f9-b8f5-58adc056ad81"
+      ],
+      "settings": {
+        "heading": "Ratings & Reviews",
+        "subheading": "Real People. Real Results.",
+        "header_alignment": "left",
+        "container": "w-full",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "app_review_heading"
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {}
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "breadcrumb",
+    "main",
+    "1646932136b2c24d82",
+    "16469274172725f22b",
+    "164693216166422905",
+    "16469322320fdff7f8",
+    "164693227426351781",
+    "product-details-tabs",
+    "product-recommendations",
+    "recent-viewed-products",
+    "1646932468fd9e808e",
+    "16504806046cd96f98",
+    "zp-product-footer-content"
+  ]
+}

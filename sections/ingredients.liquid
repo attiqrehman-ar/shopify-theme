@@ -1,0 +1,1714 @@
+<div class="alphabet_row container">
+
+  {% if section.settings.show_alpha %}
+  <div class="list">
+    <ul>
+      <li><a aria-label="A this link will take you to the A section of the current page." href="#a" class="active"> A </a></li>
+      <li><a aria-label="B this link will take you to the B section of the current page." href="#b"> B </a></li>
+      <li><a  aria-label="C this link will take you to the C section of the current page." href="#c"> C </a></li>
+      <li><a aria-label="D this link will take you to the D section of the current page." href="#d"> D </a></li>
+      <li><a aria-label="E this link will take you to the E section of the current page." href="#e"> E </a></li>
+      <li><a aria-label="F this link will take you to the F section of the current page." href="#f"> F </a></li>
+      <li><a aria-label="G this link will take you to the G section of the current page." href="#g"> G </a></li>
+      <li><a aria-label="H this link will take you to the H section of the current page."  href="#h"> H </a></li>
+      <li><a aria-label="I this link will take you to the I section of the current page."href="#i"> I </a></li>
+      <li><a aria-label="J this link will take you to the J section of the current page." href="#j"> J </a></li>
+      <li><a aria-label="K this link will take you to the K section of the current page."href="#k"> K </a></li>
+      <li><a aria-label="L this link will take you to the L section of the current page."href="#l"> L </a></li>
+      <li><a aria-label="M this link will take you to the M section of the current page." href="#m"> M </a></li>
+      <li><a aria-label="N this link will take you to the N section of the current page."href="#n"> N </a></li>
+      <li><a aria-label="O this link will take you to the O section of the current page." href="#o"> O </a></li>
+      <li><a aria-label="P this link will take you to the P section of the current page." href="#p"> P </a></li>
+      <li><a aria-label="Q this link will take you to the Q section of the current page."href="#q"> Q </a></li>
+      <li><a aria-label="R this link will take you to the R section of the current page." href="#r"> R </a></li>
+      <li><a aria-label="S this link will take you to the S section of the current page."href="#s"> S </a></li>
+      <li><a aria-label="T this link will take you to the T section of the current page." href="#t"> T </a></li>
+      <li><a aria-label="U this link will take you to the U section of the current page." href="#u"> U </a></li>
+      <li><a aria-label="V this link will take you to the V section of the current page."href="#v"> V </a></li>
+      <li><a aria-label="W this link will take you to the W section of the current page." href="#w"> W </a></li>
+      <li><a aria-label="X this link will take you to the X section of the current page." href="#x"> X </a></li>
+      <li><a aria-label="Y this link will take you to the Y section of the current page." href="#y"> Y </a></li>
+      <li><a aria-label="Z this link will take you to the Z section of the current page." href="#z"> Z </a></li>
+      
+    </ul>
+  </div>
+  {% endif %}
+  
+  {% for block in section.blocks %}
+  <div class="grid" id="{{ block.settings.alphabet | downcase  }}">
+    <h2> {{ block.settings.alphabet }} </h2>
+    {% if block.settings.showingrediant1 %}
+    <div class="ingredient1"> 
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title1 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image1 %}
+       <img class="lazyload hs-lazyload hs-id-31022559" data-src="{{  block.settings.image1 | img_url:'original' }}" src="{{  block.settings.image1 | img_url:'original' }}"  alt="{{ block.settings.image1.alt }}"/>
+   
+    {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+      {% endif %}
+       
+    </div>
+    
+    
+  </div>
+  <div class="grid__item large--one-half medium--one-half">
+  {{ block.settings.text1 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    {% if block.settings.showingrediant2 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title2 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image2 %}
+       <img class="lazyload hs-lazyload hs-id-22dc14c3" data-src="{{  block.settings.image2 | img_url:'original' }}" src="{{  block.settings.image2 | img_url:'original' }}" alt="{{ block.settings.image2.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+       
+    </div>
+    
+    
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text2 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    {% if block.settings.showingrediant3 %}
+     <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title3 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image3 %}
+       <img class="lazyload hs-lazyload hs-id-17dd2788" data-src="{{  block.settings.image3 | img_url:'original' }}" src="{{  block.settings.image3 | img_url:'original' }}" alt="{{ block.settings.image3.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+       
+    </div>
+    
+    
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text3 }}
+  </div>
+    </div> 
+    {% endif %}
+    
+    {% if block.settings.showingrediant4 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title4 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image4 %}
+       <img class="lazyload hs-lazyload hs-id-af8f5b99" data-src="{{  block.settings.image4 | img_url:'original' }}" src="{{  block.settings.image4 | img_url:'original' }}" alt="{{ block.settings.image4.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+       
+    </div>
+   </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text4 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    {% if block.settings.showingrediant5 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title5 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image5 %}
+       <img class="lazyload hs-lazyload hs-id-cdd07ea4" data-src="{{  block.settings.image5 | img_url:'original' }}" src="{{  block.settings.image5 | img_url:'original' }}" alt="{{ block.settings.image5.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+       
+    </div>
+    
+    
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text5 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    {% if block.settings.showingrediant6 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title6 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image6 %}
+       <img class="lazyload hs-lazyload hs-id-e92ea808" data-src="{{  block.settings.image6 | img_url:'original' }}" src="{{  block.settings.image6 | img_url:'original' }}" alt="{{ block.settings.image6.alt }}"/>
+    {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}"alt="In Your Face Skin Care">
+    {% endif %}
+       
+    </div>
+    
+    
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text6 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    {% if block.settings.showingrediant7 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title7 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+       
+    {% if block.settings.image7 %}
+       <img class="lazyload hs-lazyload hs-id-d1633820" data-src="{{  block.settings.image7 | img_url:'original' }}" src="{{  block.settings.image7 | img_url:'original' }}" alt="{{ block.settings.image7.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+       
+    </div>
+    
+    
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text7 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    
+    {% if block.settings.showingrediant8 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title8 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image8 %}
+       <img class="lazyload hs-lazyload hs-id-4c304b8e" data-src="{{  block.settings.image8 | img_url:'original' }}" src="{{  block.settings.image8 | img_url:'original' }}" alt="{{ block.settings.image8.alt }}"/>
+ {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text8 }}
+  </div>
+    </div>
+    {% endif %}
+    
+     {% if block.settings.showingrediant9 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name">
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title9 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image9 %}
+       <img class="lazyload hs-lazyload hs-id-977e1587" data-src="{{  block.settings.image9 | img_url:'original' }}" src="{{  block.settings.image9 | img_url:'original' }}" alt="{{ block.settings.image9.alt }}"/>
+    {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text9 }}
+  </div>
+    </div>
+    {% endif %}
+    
+      {% if block.settings.showingrediant10 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title10 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image10 %}
+       <img class="lazyload hs-lazyload hs-id-7c9ca04b" data-src="{{  block.settings.image10 | img_url:'original' }}" src="{{  block.settings.image10 | img_url:'original' }}" alt="{{ block.settings.image10.alt }}"/>
+ {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text10 }}
+  </div>
+    </div>
+    {% endif %}
+    
+      {% if block.settings.showingrediant11 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title11 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image11 %}
+       <img class="lazyload hs-lazyload hs-id-e02193b0" data-src="{{  block.settings.image11 | img_url:'original' }}" src="{{  block.settings.image11 | img_url:'original' }}" alt="{{ block.settings.image11.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text11 }}
+  </div>
+    </div>
+    {% endif %}
+    
+     {% if block.settings.showingrediant12 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title12 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image12 %}
+       <img class="lazyload hs-lazyload hs-id-e4bb9a4e" data-src="{{  block.settings.image12 | img_url:'original' }}" src="{{  block.settings.image12 | img_url:'original' }}" alt="{{ block.settings.image12.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care" >
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text12 }}
+  </div>
+    </div>
+    {% endif %}
+    
+   {% if block.settings.showingrediant13 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title13 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image13 %}
+       <img class="lazyload hs-lazyload hs-id-57ae84bc" data-src="{{  block.settings.image13 | img_url:'original' }}" src="{{  block.settings.image13 | img_url:'original' }}" alt="{{ block.settings.image13.alt }}"/>
+    {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text13 }}
+  </div>
+    </div>
+    {% endif %}  
+    
+     {% if block.settings.showingrediant14 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title14 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image11 %}
+       <img class="lazyload hs-lazyload hs-id-a2540e48" data-src="{{  block.settings.image14 | img_url:'original' }}" src="{{  block.settings.image14 | img_url:'original' }}"  alt="{{ block.settings.image14.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text14 }}
+  </div>
+    </div>
+    {% endif %}
+    
+   {% if block.settings.showingrediant15 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title15 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image15 %}
+       <img class="lazyload hs-lazyload hs-id-7ce0daff" data-src="{{  block.settings.image15 | img_url:'original' }}" src="{{  block.settings.image15 | img_url:'original' }}" alt="{{ block.settings.image15.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text15 }}
+  </div>
+    </div>
+    {% endif %}  
+    
+     {% if block.settings.showingrediant16 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title16 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image16 %}
+       <img class="lazyload hs-lazyload hs-id-7b1415fc" data-src="{{  block.settings.image16 | img_url:'original' }}" src="{{  block.settings.image16 | img_url:'original' }}" alt="{{ block.settings.image16.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text16 }}
+  </div>
+    </div>
+    {% endif %}
+    
+     {% if block.settings.showingrediant17 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title17 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image17 %}
+       <img class="lazyload hs-lazyload hs-id-94284090" data-src="{{  block.settings.image17 | img_url:'original' }}" src="{{  block.settings.image17 | img_url:'original' }}" alt="{{ block.settings.image17.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text17 }}
+  </div>
+    </div>
+    {% endif %}
+    
+     {% if block.settings.showingrediant18 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title18 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image18 %}
+       <img class="lazyload hs-lazyload hs-id-66435a92" data-src="{{  block.settings.image18 | img_url:'original' }}" src="{{  block.settings.image18 | img_url:'original' }}" alt="{{ block.settings.image18.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text18 }}
+  </div>
+    </div>
+    {% endif %}
+    
+    
+     {% if block.settings.showingrediant19 %}
+    <div class="ingredient1">
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title19 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image19 %}
+       <img class="lazyload hs-lazyload hs-id-f73cd622" data-src="{{  block.settings.image19 | img_url:'original' }}" src="{{  block.settings.image19 | img_url:'original' }}" alt="{{ block.settings.image19.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text19 }}
+  </div>
+    </div>
+    {% endif %}
+    
+      {% if block.settings.showingrediant20 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title20 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image20 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image20 | img_url:'original' }}" src="{{  block.settings.image20 | img_url:'original' }}" alt="{{ block.settings.image20.alt }}"/>
+ {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text20 }}
+  </div>
+    </div>
+    {% endif %}
+
+ {% if block.settings.showingrediant21 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title21 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image21 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image21 | img_url:'original' }}" src="{{  block.settings.image21 | img_url:'original' }}" alt="{{ block.settings.image21.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text21 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant22 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title22 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image22 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image22 | img_url:'original' }}" src="{{  block.settings.image22 | img_url:'original' }}" alt="{{ block.settings.image22.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text22 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant23 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title23 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image23 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image23 | img_url:'original' }}" src="{{  block.settings.image23 | img_url:'original' }}" alt="{{ block.settings.image23.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text23 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant24 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title24 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image24 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image24 | img_url:'original' }}" src="{{  block.settings.image24 | img_url:'original' }}" alt="{{ block.settings.image24.alt }}" />
+ {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text24 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant25 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title25 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image25 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image25 | img_url:'original' }}" src="{{  block.settings.image25 | img_url:'original' }}" alt="{{ block.settings.image25.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text25 }}
+  </div>
+    </div>
+    {% endif %}
+
+
+{% if block.settings.showingrediant26 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title26 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image26 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image26 | img_url:'original' }}" src="{{  block.settings.image26 | img_url:'original' }}" alt="{{ block.settings.image26.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text26 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant27 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title27 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image27 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image27 | img_url:'original' }}" src="{{  block.settings.image27 | img_url:'original' }}" alt="{{ block.settings.image27.alt }}"/>
+    {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text27 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant28 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title28 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image28 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image28 | img_url:'original' }}" src="{{  block.settings.image28 | img_url:'original' }}" alt="{{ block.settings.image28.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text28 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant29 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title29 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image29 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image29 | img_url:'original' }}" src="{{  block.settings.image29 | img_url:'original' }}" alt="{{ block.settings.image29.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text29 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant30 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title30 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image30 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image30 | img_url:'original' }}" src="{{  block.settings.image30 | img_url:'original' }}" alt="{{ block.settings.image30.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text30 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant31 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title31 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image31 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image31 | img_url:'original' }}" src="{{  block.settings.image31 | img_url:'original' }}" alt="{{ block.settings.image31.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text31 }}
+  </div>
+    </div>
+    {% endif %}
+
+{% if block.settings.showingrediant32 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title32 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image32 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image32 | img_url:'original' }}" src="{{  block.settings.image32 | img_url:'original' }}" alt="{{ block.settings.image32.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text32 }}
+  </div>
+    </div>
+    {% endif %}
+
+    {% if block.settings.showingrediant33 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title33 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image33 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image33 | img_url:'original' }}" src="{{  block.settings.image33 | img_url:'original' }}" alt="{{ block.settings.image33.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text33 }}
+  </div>
+    </div>
+    {% endif %}
+
+    {% if block.settings.showingrediant34 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title34 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image34 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image34 | img_url:'original' }}" src="{{  block.settings.image34 | img_url:'original' }}" alt="{{ block.settings.image34.alt }}"/>
+   {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text34 }}
+  </div>
+    </div>
+    {% endif %}
+
+    {% if block.settings.showingrediant35 %}
+    <div class="ingredient1">  
+  <div class="grid__item large--one-half medium--one-half ingra_name" >
+    
+  <div class="grid__item large--one-half medium--one-half">
+       {{ block.settings.title35 }}
+    </div>
+  <div class="grid__item large--one-half medium--one-half" >
+    {% if block.settings.image35 %}
+       <img class="lazyload hs-lazyload hs-id-b2db3b8d" data-src="{{  block.settings.image35 | img_url:'original' }}" src="{{  block.settings.image35 | img_url:'original' }}"  alt="{{ block.settings.image35.alt }}"/>
+  {% else %}
+      <img src="{{ 'INYOURFACESKINCARE-SquareLogo-870.jpg' | asset_url }}" alt="In Your Face Skin Care">
+    {% endif %}
+    </div>  
+  </div>
+  <div class="grid__item large--one-half medium--one-half" >
+  {{ block.settings.text35 }}
+  </div>
+    </div>
+    {% endif %}
+
+  </div>
+   {% endfor %}
+  
+</div>
+
+
+{% schema %}
+  {
+    "name": "Ingredients",
+    "settings": [ 
+{
+            "type": "checkbox",
+            "id": "show_alpha",
+            "label": "Show / Hide Alphabet list"
+          }
+],
+    "blocks": [
+      {
+        "type": "alphabetblock",
+        "name": "Ingredients",
+        "settings": [
+
+          {
+            "type": "text",
+            "id": "alphabet",
+            "label": "Alphabet"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-1"
+          },
+  {
+            "type": "checkbox",
+            "id": "showingrediant1",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title1",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text1",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-2"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant2",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title2",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text2",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-3"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant3",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image3",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title3",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text3",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-4"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant4",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image4",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title4",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text4",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-5"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant5",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image5",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title5",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text5",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-6"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant6",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image6",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title6",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text6",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-7"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant7",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image7",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title7",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text7",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-8"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant8",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image8",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title8",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text8",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-9"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant9",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image9",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title9",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text9",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-10"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant10",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image10",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title10",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text10",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-11"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant11",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image11",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title11",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text11",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-12"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant12",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image12",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title12",
+            "label": "Heading",
+            "default": "Add a title or tagline"
+          },
+          {
+            "type": "textarea",
+            "id": "text12",
+            "label": "Text",
+            "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-13"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant13",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image13",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title13",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text13",
+            "label": "Text" },
+{
+            "type": "header",
+            "content": "Ingredient-14"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant14",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image14",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title14",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text14",
+            "label": "Text" },
+{
+            "type": "header",
+            "content": "Ingredient-15"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant15",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image15",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title15",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text15",
+            "label": "Text" },
+{
+            "type": "header",
+            "content": "Ingredient-16"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant16",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image16",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title16",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text16",
+            "label": "Text" },
+{
+            "type": "header",
+            "content": "Ingredient-17"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant17",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image17",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title17",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text17",
+            "label": "Text"  
+          },
+{
+            "type": "header",
+            "content": "Ingredient-18"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant18",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image18",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title18",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text18",
+            "label": "Text"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-19"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant19",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image19",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title19",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text19",
+            "label": "Text"
+          },
+{
+            "type": "header",
+            "content": "Ingredient-20"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant20",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image20",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title20",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text20",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-21"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant21",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image21",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title21",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text21",
+            "label": "Text"
+          },
+       {
+            "type": "header",
+            "content": "Ingredient-22"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant22",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image22",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title22",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text22",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-23"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant23",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image23",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title23",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text23",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-24"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant24",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image24",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title24",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text24",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-25"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant25",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image25",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title25",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text25",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-26"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant26",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image26",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title26",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text26",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-27"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant27",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image27",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title27",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text27",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-28"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant28",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image28",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title28",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text28",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-29"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant29",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image29",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title29",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text29",
+            "label": "Text"
+          },
+          {
+            "type": "header",
+            "content": "Ingredient-30"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant30",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image30",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title30",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text30",
+            "label": "Text"
+          },
+            {
+            "type": "header",
+            "content": "Ingredient-31"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant31",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image31",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title31",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text31",
+            "label": "Text"
+          },
+            {
+            "type": "header",
+            "content": "Ingredient-32"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant32",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image32",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title32",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text32",
+            "label": "Text" 
+          },
+            {
+            "type": "header",
+            "content": "Ingredient-33"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant33",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image33",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title33",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text33",
+            "label": "Text"
+          },
+            {
+            "type": "header",
+            "content": "Ingredient-34"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant34",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image34",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title34",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text34",
+            "label": "Text" 
+          },
+            {
+            "type": "header",
+            "content": "Ingredient-35"
+          },
+ {
+            "type": "checkbox",
+            "id": "showingrediant35",
+            "label": "Show / Hide"
+          },
+          {
+            "type": "image_picker",
+            "id": "image35",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "title35",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "text35",
+            "label": "Text"
+          }
+          
+        ]
+      }
+    ],
+  "presets": [
+            {
+                "name": "Ingredients",
+                "category": "ingredients",
+                "blocks": [
+                    { "type": "alphabetblock" },
+                    { "type": "alphabetblock" },
+                    { "type": "alphabetblock" }
+                ]
+            }
+        ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

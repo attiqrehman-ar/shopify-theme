@@ -1,0 +1,428 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16482112320fc12b1f": {
+      "type": "obsessed",
+      "blocks": {
+        "8f4f7fd8-8cb1-4f3d-9818-96d558aac56c": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chole.png",
+            "image_align": "image-left",
+            "bottomgap": "0",
+            "title": "“When asked how my skin is so perfect, I say ‘I love IYF skincare, game-changer...’”",
+            "description": "",
+            "subtitle": "Chloe Fineman\n<span>SNL Cast Member<br>\nTV & Film Actor<\/span>"
+          }
+        },
+        "6d6cc4d6-bcd1-4fe7-9377-3939652440bb": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rebecca-minkoff-mobile.png",
+            "image_align": "image-left",
+            "bottomgap": "",
+            "title": "“Since using IN YOUR FACE CREAM, it’s given me back\nmy ‘glow’. I am gonna talk about it as much as I can.”",
+            "description": "",
+            "subtitle": "Rebecca Minkoff\n<span>Fashion Designer<\/span>"
+          }
+        },
+        "3a0e3dd1-4a30-4d4c-a53b-091fd9f03013": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jenna_42c62b39-b05f-4d00-8377-cc4f92789cba.png",
+            "image_align": "image-left",
+            "bottomgap": "",
+            "title": "“This cream is SO GOOD! And not full of toxic crap. I use it every day. Obsessed. Need to buy more ASAP!”",
+            "description": "",
+            "subtitle": "Jenna Elfman\n<span>TV & Film Actor<\/span>"
+          }
+        },
+        "c1f757ad-4504-47b0-8225-04cc4f9c8b5f": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maricol.png",
+            "image_align": "image-right",
+            "bottomgap": "",
+            "title": "“I have a LOT of stuff–La Mer, Dr Sturm, Skinceuticals. But I’ve used EVERY drop of IYF CREAM. It’s insane.”",
+            "description": "",
+            "subtitle": "Marisol Nichols\n<span>TV & Film Actor<\/span>"
+          }
+        },
+        "c45324ea-9421-41b0-950a-df85ebb7c5df": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stacyy.png",
+            "image_align": "image-left",
+            "bottomgap": "0",
+            "title": "“As a woman of color it was very hard to find products that worked for me. I’m a very big fan of this product.” (Review of THE CREAM)",
+            "description": "",
+            "subtitle": "Stacy Francis\n<span>Singer, Actrress, XFactor Contestant<\/span>"
+          }
+        },
+        "5eac2e71-e322-49bd-ac3e-fe9b53f6e209": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kevin_5561620d-b136-483c-8b61-c62fcf104687.png",
+            "image_align": "image-right",
+            "bottomgap": "0",
+            "title": "“I don’t want a complex regime. This one jar is my go-to for day cream, night cream, dryness and razor rash. I even use it as a makeup remover after a day of thick stage makeup.”",
+            "description": "",
+            "subtitle": "Kevin Spirtas\n<span>Tony Award-Winning Broadway Producer & Emmy Award-Winning TV & Film Actor<\/span>"
+          }
+        },
+        "547cb7aa-7c34-45f3-86b8-e4269929ad85": {
+          "type": "obsessed",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/j_98cd74e4-b406-433a-b561-d3aee92c1fe6.png",
+            "image_align": "image-right",
+            "bottomgap": "0",
+            "title": "“I will not live without \n this cream. It is HEAVEN. I’ve stopped using anything else for the past 6 weeks and people are asking me what’s going on with my skin.”",
+            "description": "",
+            "subtitle": "Jennifer Aspen\n<span>Actor & Writer, \nProducer Hallmark Channel<\/span>"
+          }
+        }
+      },
+      "block_order": [
+        "8f4f7fd8-8cb1-4f3d-9818-96d558aac56c",
+        "6d6cc4d6-bcd1-4fe7-9377-3939652440bb",
+        "3a0e3dd1-4a30-4d4c-a53b-091fd9f03013",
+        "c1f757ad-4504-47b0-8225-04cc4f9c8b5f",
+        "c45324ea-9421-41b0-950a-df85ebb7c5df",
+        "5eac2e71-e322-49bd-ac3e-fe9b53f6e209",
+        "547cb7aa-7c34-45f3-86b8-e4269929ad85"
+      ],
+      "disabled": true,
+      "settings": {
+        "visibility": false,
+        "visibility2": true,
+        "bgcolor": "#f6f6f6"
+      }
+    },
+    "1648470186b32d1702": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chloe_fineman_1140fe8a-abe7-4fe4-a48b-47e00955a130.png",
+        "mobileimage": "shopify:\/\/shop_images\/chloe_fineman_mobile.jpg"
+      }
+    },
+    "164847663233081007": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jenna_elfman_0fff2bc5-5a1c-454d-9484-1b0d5c7523d2.png",
+        "mobileimage": "shopify:\/\/shop_images\/jenna_elfman_mobile.png"
+      }
+    },
+    "1648476903c05c2f61": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/marisol_nichols.png",
+        "mobileimage": "shopify:\/\/shop_images\/marisol_nichols_mobile.png"
+      }
+    },
+    "16485475907b4b55b1": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stacy_francis.png",
+        "mobileimage": "shopify:\/\/shop_images\/stacy_francis_mobile_0a69ba2c-a2f2-4d86-a4cf-229ac18ff794.png"
+      }
+    },
+    "1648547599e6935c6c": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rebecca_minkoff.png",
+        "mobileimage": "shopify:\/\/shop_images\/2022-rebecca_minkoff_mobile_copy_54526b71-3f03-4f20-a287-3788459d2f2f.jpg"
+      }
+    },
+    "1648547609a692ff5c": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kevin_spirtas_green_web.png",
+        "mobileimage": "shopify:\/\/shop_images\/kevin_spirtas_gray_mobile.png"
+      }
+    },
+    "16485476182268cc4b": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jennifer_aspen_a90a9f2f-6080-435f-8525-f42a0f40ab27.jpg",
+        "mobileimage": "shopify:\/\/shop_images\/jennifer_aspen.png"
+      }
+    },
+    "1648547628a2aa17c4": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kevin_spirtas_88042ca7-fee3-406d-b738-0f6bd43aa131.jpg"
+      }
+    },
+    "1648547637b7e3bdcb": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brie_pena.jpg"
+      }
+    },
+    "164854783025fe5eb4": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SOPHIA_BANKS.jpg"
+      }
+    },
+    "image_with_text_BcHD4h": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/chloe_fineman_600.png",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“When asked how my skin is so perfect, I say I love IYF skincare...game changer.” <\/h3>",
+        "sub_title": "",
+        "text": "<h6><strong>Chloe Fineman<\/strong><br\/>SNL Cast Member | TV & Film Actor<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "image_with_text_E34nKr": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/jenna-elfman-600.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“This cream is SO GOOD! And not full of toxic crap. I use it every day. Obsessed. Need to buy more ASAP!”<\/h3>",
+        "sub_title": "",
+        "text": "<h6><strong>Jenna Elfman <\/strong><br\/>TV & Film Actor<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "image_with_text_FB7wAL": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/marisol-nichols-600.jpg",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“I have a LOT of stuff-La Mer, Dr. Sturm, Skinceuticals. But I’ve used EVERY drop of IYF CREAM. It’s insane.”<\/h3>",
+        "sub_title": "",
+        "text": "<h6><strong>Marisol Nichols<\/strong><br\/>TV & Film Actor<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "image_with_text_8jUNkN": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/Stacy_Francis_292f233a-5bb9-4080-a4af-1cc446ce0ad8.png",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“As a woman of color, it was hard for me to find products that really worked for me. I’m a very big fan of this product.” <\/h3>(Review of THE CREAM)",
+        "sub_title": "",
+        "text": "<h6><strong>Stacy Francis<\/strong><br\/>Singer, Actress, XFactor Contestant<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "image_with_text_PMPeQt": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/rebecca_minkoff_600.png",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“Since using In Your Face Cream, it’s given me back my ‘glow.’ I am gonna talk about it as much as I can.”<\/h3>",
+        "sub_title": "",
+        "text": "<h6><strong>Rebecca Minkoff<\/strong><br\/>Fashion Designer<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "image_with_text_fqzLBc": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/jennifer_aspen_600.png",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“I will not live without this cream. It is HEAVEN. I’ve stopped using anything else for the past 6 weeks and people are asking me what’s going on with my skin.”<\/h3>",
+        "sub_title": "",
+        "text": "<h6><strong>Jennifer Aspen<\/strong><br\/>TV & Film Actor<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "image_with_text_qJLgGf": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/kevin-spirtas-600.jpg",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“I don’t want a complex regime. This one jar is my go-to for day cream, night cream, dryness and razor rash. I even use it as a makeup remover after a day of thick stage makeup.”<\/h3>",
+        "sub_title": "",
+        "text": "<h6><strong>Kevin Spirtas <\/strong><br\/>Tony Award-Winning Broadway Producer & Emmy Award-Winning TV & Film Actor<\/h6>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16482112320fc12b1f",
+    "1648470186b32d1702",
+    "164847663233081007",
+    "1648476903c05c2f61",
+    "16485475907b4b55b1",
+    "1648547599e6935c6c",
+    "1648547609a692ff5c",
+    "16485476182268cc4b",
+    "1648547628a2aa17c4",
+    "1648547637b7e3bdcb",
+    "164854783025fe5eb4",
+    "image_with_text_BcHD4h",
+    "image_with_text_E34nKr",
+    "image_with_text_FB7wAL",
+    "image_with_text_8jUNkN",
+    "image_with_text_PMPeQt",
+    "image_with_text_fqzLBc",
+    "image_with_text_qJLgGf"
+  ]
+}

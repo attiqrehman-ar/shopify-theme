@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-contact",
+      "settings": {
+        "container": "container-fluid"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "container": "container-fluid",
+        "title": "We'd love to hear from you! Send us your questions and your comments. <br>We try to reply super quickly. ❤️<br>Or give us a call M-F 9-5 (Eastern US) at: <a href=\"tel:+1%20(727)%20286-7684\">+1 (727) 286-7684<\/a><br><br>Our mailing address (should you need to send us flowers or something!) is: <br> 251 West Bay Dr. Suite #1<br>Belleair Bluffs, FL 33770<br><br>",
+        "description": "",
+        "show_name": true,
+        "show_phone": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact-form"
+  ]
+}

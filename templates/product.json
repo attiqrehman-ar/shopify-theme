@@ -1,0 +1,223 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {}
+    },
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_onmob": true
+          }
+        },
+        "6e5f33f9-31ad-4852-92b9-4d5c3ef7b691": {
+          "type": "text",
+          "settings": {
+            "show_onmob": true,
+            "text": "{{ product.metafields.my_fields.tagline_under_product_title.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "91a88326-260b-41c2-b847-e6aa711ca7b1": {
+          "type": "short_description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "658f8a57-6fc5-427b-9591-093bc7e82fed": {
+          "type": "combine",
+          "settings": {}
+        },
+        "7b93c11f-583a-4b62-bf20-473ee5b1b6a1": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        },
+        "45ea112e-4644-42b3-a6b4-6f8876e04b05": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badges_800_x_275_px_800_x_215_px_-3_copy.png",
+            "image_link": "",
+            "image_width": 100,
+            "image_alignment": "start"
+          }
+        },
+        "7380862d-75a8-40b8-b6c8-80b765f042e9": {
+          "type": "collapsible_tab1",
+          "settings": {
+            "heading": "WHAT IT IS",
+            "default_open": true
+          }
+        },
+        "2e584440-b1ab-418c-8e13-4f56feea47ac": {
+          "type": "collapsible_tab2",
+          "settings": {
+            "heading": "WHY YOU NEED IT",
+            "default_open": true
+          }
+        },
+        "ff298d85-be7c-43e9-8541-84419a32a275": {
+          "type": "collapsible_tab3",
+          "settings": {
+            "heading": "FULL INGREDIENTS LIST (NOTHING TO HIDE)",
+            "default_open": true
+          }
+        },
+        "c7758ca5-669a-4ca8-b989-9c5755b4a14e": {
+          "type": "collapsible_tab4",
+          "settings": {
+            "heading": "HOW TO USE",
+            "default_open": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "6e5f33f9-31ad-4852-92b9-4d5c3ef7b691",
+        "91a88326-260b-41c2-b847-e6aa711ca7b1",
+        "price",
+        "variant_picker",
+        "658f8a57-6fc5-427b-9591-093bc7e82fed",
+        "7b93c11f-583a-4b62-bf20-473ee5b1b6a1",
+        "buy_buttons",
+        "45ea112e-4644-42b3-a6b4-6f8876e04b05",
+        "7380862d-75a8-40b8-b6c8-80b765f042e9",
+        "2e584440-b1ab-418c-8e13-4f56feea47ac",
+        "ff298d85-be7c-43e9-8541-84419a32a275",
+        "c7758ca5-669a-4ca8-b989-9c5755b4a14e"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "layout-1",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": false,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": true,
+        "show_pagination_mobile": false,
+        "use_sticky_atc": false,
+        "use_sticky_atc_on_mobile": false,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": true,
+        "sticky_atc_compare": false
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "header": "Product description"
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "header": "Shipping & Return",
+            "content": "<p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.<\/p><p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.<\/p>",
+            "content_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": false
+      }
+    },
+    "168521088741b258f6": {
+      "type": "apps",
+      "blocks": {
+        "50dc935d-38c9-4200-bbfb-f8bb8fb75098": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "50dc935d-38c9-4200-bbfb-f8bb8fb75098"
+      ],
+      "settings": {
+        "heading": "Ratings & Reviews",
+        "subheading": "Real people. Real results.",
+        "header_alignment": "left",
+        "container": "w-full",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "app_review_heading"
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {}
+    },
+    "recent_viewed_products_gdatrC": {
+      "type": "recent-viewed-products",
+      "settings": {
+        "container": "container",
+        "heading": "We noticed you checking these out...",
+        "limit": 4,
+        "columns": 4,
+        "column_gap": 24,
+        "enable_slider": true
+      }
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "breadcrumb",
+    "main",
+    "product-details-tabs",
+    "168521088741b258f6",
+    "zp-product-footer-content",
+    "recent_viewed_products_gdatrC"
+  ]
+}

@@ -1,0 +1,224 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<style>
+
+
+
+  .splide__arrows.splide__arrows--ltr{
+  display: none;
+  }
+.splide__slide{
+  position: relative;
+}
+.slider-content {
+  position: absolute;
+  bottom: 36%;
+  left: 59%;
+  right: 0;
+  max-width: 400px;
+  text-align: right;
+  color: #000;
+}
+
+.slider-content h2{
+  font-size: 3rcm;
+  color: #000;
+  margin: 0;
+  padding: 0 0 14px 0 !important;
+ }
+.slider-content p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400px;
+    line-height: 21px;
+    text-transform: uppercase; 
+}
+
+
+.slider-content a{
+  font-weight: 400px;
+  font-size: 18px;
+  color: #000;
+  text-decoration: Underline;
+  text-align: center;
+  text-transform: uppercase; 
+  padding: 14px 0 0 0 !important;
+}
+
+.desktop-image{
+  width: 100%;
+}
+
+.mobile-image{
+  display:none;
+  width:100%;
+}
+div#splide01-track{
+margin: 0 0px 0 0px;
+}
+
+@media only screen and (max-width: 1025px){
+  .slider-content{
+    left: 52%;
+  }
+
+
+}
+
+@media screen and (max-width: 480px)  {
+
+    .slider-content {
+        position: static;
+        text-align: center;
+    }
+}
+
+@media (max-width : 769px){
+    .slider-content h2{
+        font-size: 28px;
+        color: #000;
+        margin: 0;
+        padding:0 0 0 0;
+        font-weight: 500px;
+      }
+      div#splide01-track{
+        margin: 0 14px 0 14px;
+        }
+        .slider-content{
+        left: 42%;
+      }
+
+
+}
+
+
+
+.splide{
+max-width: 1366px;
+margin: 0 auto;
+}
+
+</style>
+
+
+<section class="splide" aria-label="Banner Slider">
+  <div class="splide__track">
+		<ul class="splide__list">
+		 
+            {% for block in section.blocks %}
+                
+                {% comment %} {%- assign image = block.settings.image -%} {% endcomment %}
+                {%- assign desktop-image = block.settings.desktop-image -%}
+                {%- assign mobile-image = block.settings.mobile-image -%}
+                {%- assign title = block.settings.title -%}
+                {% comment %} {%- assign description_text = block.settings.description_text -%}	     {% endcomment %}
+                {%- assign link = block.settings.link -%}
+                {%- assign link-text = block.settings.link-text -%}
+                {%- assign link-url = block.settings.link-url -%}
+  
+            
+            
+                {% comment %} {%- liquid
+                    if image
+                      render "image", image: image, mobile_image: mobile_image, parallax: parallax_enabled, aspect_ratio: image_aspect_ratio, mobile_aspect_ratio: mobile_image_aspect_ratio, darken: darken_image, darken_mobile: darken_image_mobile, loading: loading, per_row: per_row, mobile_per_row: mobile_per_row
+                    elsif show_placeholder_image
+                      render "placeholder", type: "lifestyle", aspect_ratio: image_aspect_ratio, mobile_aspect_ratio: mobile_image_aspect_ratio, placeholder_index: 2, darken: darken_image, darken_mobile: darken_image_mobile
+                    endif
+                  -%} {% endcomment %}
+
+                  <li class="splide__slide">
+ <img class="desktop-image"  src="{{ desktop-image | img_url: 'master' }}" alt="{{ block.settings.desktop-image.alt }}">
+<img class="mobile-image" src="{{ mobile-image | img_url: 'master' }}" alt="{{ block.settings.mobile-image.alt }}">
+
+<div class="slider-content">
+<h2>{{ block.settings.title}}</h2>
+<p>{{ block.settings.description_text }}</p>
+<a href="{{ block.settings.link-url }}"> {{ block.settings.link-text }}</a>
+</div>
+      </li>
+
+
+    {% endfor %}
+
+
+
+
+		</ul>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var splide = new Splide('.splide', {
+      perPage: 1,  // Number of slides to show per page
+      perMove: 1,  // Number of slides to move when navigating
+    });
+    splide.mount();
+  });
+  </script>
+
+
+
+{% schema %}
+{
+  "name": "splide slider",
+  "class": "splid--slider",
+
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image slide",
+      "settings": [
+        {
+          "id": "desktop-image",
+          "label": "Image",
+          "type": "image_picker"
+        },
+        
+        {
+          "id": "title",
+          "label": "Heading",
+          "type": "text",
+          "default": "Slide heading"
+        },
+        {
+          "id": "description_text",
+          "label": "Description",
+          "type": "richtext"
+        },
+        
+        {
+          "id": "link-text",
+          "label": "Link text",
+          "type": "text"
+        },
+        {
+          "id": "mobile-image",
+          "label": "Mobile Image",
+          "type": "image_picker"
+        },
+        {
+          "id": "link-url",
+          "label": "Link",
+          "type": "url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "splide slider",
+      "blocks": [
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["aside"]
+  }
+}
+{% endschema %}

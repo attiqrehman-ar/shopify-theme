@@ -1,0 +1,18 @@
+<div class="pt-7 flex {% if blog.previous_article != nil and blog.next_article != nil %}justify-between{% elsif blog.previous_article != nil %}justify-start{% else %}justify-end{% endif %}" style="border-color: var(--border-color-1);">
+  {% if blog.previous_article != nil %}
+  <a href="{{blog.previous_article.url}}" class="flex flex-1 items-center py-2.5" style="border-color: var(--border-color-1);">
+    <div class="ml-5 bloglink_left">   <img src="{{ 'arrowleft.png' | asset_url }}">
+    
+         {{ 'blogs.article.previous_post' | t }}    
+      </div>
+  </a>
+  {% endif %}
+  {% if blog.next_article != nil %}
+      <a href="{{blog.next_article.url}}" class="flex flex-1 justify-end items-center py-2.5">
+          <div class="mr-5 text-right bloglink_right">
+              {{ 'blogs.article.next_post' | t }}    
+          
+          <img src="{{ 'arrowright.png' | asset_url }}"></div> 
+      </a>
+  {% endif %}
+</div>

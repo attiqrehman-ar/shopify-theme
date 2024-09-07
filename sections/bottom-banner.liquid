@@ -1,0 +1,113 @@
+{% if section.settings.show_announcement %}
+    {% if section.settings.homepage_only == false or request.page_type == 'index' %}
+        {% style %}
+            .bottom-bar 
+            {  
+                {% if section.settings.bgimage %}
+                background-image:url({{ section.settings.bgimage | img_url:'master' }});
+                {% endif %}
+                background-color: {{ section.settings.color_annoucement_bg | default: '#222' }};
+            }
+            .bottom-bar a,
+            .bottom-bar .bottom-bar__content
+            {
+                color: {{ section.settings.color_annoucement_text | default: '#fff' }}
+            }
+          
+        {% endstyle %}
+        <section
+            data-section-id="{{ section.id }}"
+            data-section-type="salebar"
+            class="bottom-bar"
+        >
+            {%- unless section.settings.message_link == blank -%}
+                <a href="{{ section.settings.message_link }}" class="announcement-bar__link">
+            {%- endunless -%}
+         <div class="bottom-bar__content">    
+           <div class="container-fluid">
+           <div class="mobhide">
+           {% if section.settings.image %}
+           <img src="{{ section.settings.image  | img_url:'master' }}">
+           {% endif %}
+           </div>
+           
+             <div class="deskhide">
+           {% if section.settings.mobimage %}
+           <img src="{{ section.settings.mobimage   | img_url:'master' }}">
+           {% endif %}
+           </div>
+           </div>
+           
+          {{ section.settings.message }}
+                  </div>
+                   {%- unless section.settings.message_link == blank -%}
+                </a>
+            {%- endunless -%}
+        </section>
+    {% endif %}
+{% endif %}
+
+
+<style>
+.bottom-bar
+  {
+    
+  }
+</style>
+
+
+{% schema %}
+	{
+        "name": "Sale bar",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "show_announcement",
+                "label": "Show announcement",
+                "default": false
+            },
+            {
+                "type": "checkbox",
+                "id": "homepage_only",
+                "label": "Home page only",
+                "default": true
+            },
+            {
+                "type": "textarea",
+                "id": "message",
+                "label": "Message",
+                "default": "Free shipping for all orders from $60+"
+            },
+            {
+                "type": "url",
+                "id": "message_link",
+                "label": "Link"
+            },
+ {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Banner Image"
+            }, 
+ {
+                "type": "image_picker",
+                "id": "mobimage",
+                "label": "Mobile Banner Image"
+            },
+ {
+                "type": "image_picker",
+                "id": "bgimage",
+                "label": "Background Image"
+            }, 
+            {
+                "type": "color",
+                "id": "color_annoucement_bg",
+                "label": "Background Color"
+            }, 
+            {
+                "type": "color",
+                "id": "color_annoucement_text",
+                "label": "Text Color"
+            }
+        ]
+	}
+{% endschema %}

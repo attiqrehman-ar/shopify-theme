@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-about-us",
+      "disabled": true,
+      "settings": {}
+    },
+    "custom-content": {
+      "type": "custom-content",
+      "disabled": true,
+      "settings": {
+        "hideondesk": false,
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "sf__page-about"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom-content"
+  ]
+}

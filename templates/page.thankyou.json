@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1656091437d1e57721": {
+      "type": "thank-you",
+      "settings": {
+        "heading": "Yay! You’re in!",
+        "image": "shopify:\/\/shop_images\/denice-optin_8aa399d6-ceae-4edc-8681-f5ec1dbb48d2.jpg",
+        "rte1": "<p style=\"font-size: 18px;\">\n Thanks for signing up! You’ll be the first to shop our newest products when they arrive, and you'll get your own unique VIP-only coupon codes.\n<\/p>\n  <p style=\"font-size: 18px;\">\nIn the meantime, have a look around, check out all the latest trends and tips on The Blog, or stay in touch with us on Facebook and Instagram.\n<\/p>\n\n  <p style=\"font-size: 18px;\">\nMore soon!\n<\/p>",
+        "subheading": "XOXO, Denice & The IYF Crew"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656091437d1e57721"
+  ]
+}

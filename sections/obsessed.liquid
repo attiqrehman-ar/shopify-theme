@@ -1,0 +1,180 @@
+<div class="obsessedpage page-margin {% if section.settings.visibility2 %} mobileobsesed {% endif %}" id="obs{{ section.id }}">
+  <div class="grid">
+    <div class="grid__item">
+      <div class="rte">
+         {% for block in section.blocks %}
+     <section class="obsessed__section" id="obs{{ block.id }}"  {{ block.shopify_attributes }}>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="forcolor">
+				<div class="col-sm-9 col-md-9 col-xs-9 text-center  {% if block.settings.image_align == 'image-right' %} imgright {% endif %} {% if block.settings.image_align == 'image-left' %} imgleft {% endif %}">
+					<div class="sec2">
+						<h1>{{ block.settings.title }}</h1>
+						<p>{{ block.settings.description }}</p>
+						<h5>{{ block.settings.subtitle }}</h5>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3 col-xs-3">
+					<div class="woman1 {% if block.settings.image_align == 'image-right' %} womanright {% endif %}">
+                      
+                      {% if block.settings.image %}
+						<img class="lazyload hs-lazyload hs-id-4e165d8a" data-src="{{ block.settings.image | img_url:'original' }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+				      {% endif %}
+                      
+                  </div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+        <style>
+        
+          {% if block.settings.image_align == 'image-left' %}
+          #obs{{ block.id }} .col-sm-3
+          {
+            left:0;
+          }
+           #obs{{ block.id }} .col-sm-9
+          {
+            float:right;
+          }
+          {% endif %}
+          
+          
+           {% if block.settings.image_align == 'image-right' %}
+          #obs{{ block.id }} .col-sm-3
+          {
+            right:0; left:auto;
+          }
+           #obs{{ block.id }} .col-sm-9
+          {
+            float:left;
+          }
+          {% endif %}
+           #obs{{ block.id }} .col-sm-3
+          {
+            bottom:{{ block.settings.bottomgap }};
+            display: flex;
+    align-items: end;
+          }
+          
+          
+        </style>
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+#obs{{ section.id }} .obsessed__section
+  {
+    background:{{ section.settings.bgcolor }}
+  }
+  {% if section.settings.visibility2 %}
+#obs{{ section.id }}
+  {
+    display:none
+  }
+   {% endif %}
+  @media(max-width:767px)
+ {
+  {% if section.settings.visibility %}
+  #obs{{ section.id }}
+  {
+    display:none;
+  }
+  {% endif %}
+   
+{% if section.settings.visibility2 %}
+#obs{{ section.id }}
+  {
+    display:block;
+  } 
+ 
+   {% endif %}
+  }
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Obsessed",
+    "settings": [
+{
+            "type": "checkbox",
+            "id": "visibility",
+            "label": "Hide On mobile"
+          },
+{
+            "type": "checkbox",
+            "id": "visibility2",
+            "label": "Hide On Desktop"
+          },
+{
+            "type": "color",
+            "id": "bgcolor",
+            "label": "Background Color"
+          }
+],
+    "blocks": [
+      {
+        "type": "obsessed",
+        "name": "Obsessed",
+        "settings": [
+
+         {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+         {
+          "type": "select",
+          "id": "image_align",
+          "label": "Image Alignment",
+          "default": "image-left",
+          "options": [
+            { "value": "image-left", "label": "Align Left"},
+            { "value": "image-right", "label": "Align Right"}
+          ]
+        },
+ {
+            "type": "text",
+            "id": "bottomgap",
+            "label": "Bottom Space",
+"default":"auto"
+          },
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "textarea",
+            "id": "subtitle",
+            "label": "Sub Heading"
+          }
+      ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Obsessed",
+        "category": "Obsessed Page"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-page-header",
+      "settings": {
+        "container": "container",
+        "layout": "inside",
+        "header_height": "medium",
+        "text_alignment": "left",
+        "vertical_alignment": "center",
+        "text_color": "dark",
+        "bg_color": "#ffffff",
+        "bg_image": "{{ collection.image }}",
+        "enable_parallax": false,
+        "upper_title": false,
+        "show_desc": true,
+        "collection_all_desc": "<p>{{ collection.metafields.my_fields.brief | metafield_tag }}<\/p>"
+      }
+    },
+    "main": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "00b3badd-1613-4230-85d8-f87f04306aaa": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "CONCERN",
+            "filtergroup": "aging skin,\ndull skin,\ndiscoloration,\ndry skin,\noily skin,\nsensitive skin,\nblemish prone",
+            "show_label": false,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        },
+        "12d1fe74-103e-49f7-af9e-dbab0a907ac4": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "INGREDIENT",
+            "filtergroup": "vitamin c,\nretinol,\nsalicylic acid,\nolive oil,\nniacinimide,\naha\/bha",
+            "show_label": false,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        },
+        "179c1f73-c0b7-485a-a1ad-b7e3ace2dc3b": {
+          "type": "filter",
+          "settings": {
+            "design_filtergroup": "default",
+            "title": "PRODUCT TYPE",
+            "filtergroup": "moisturizers and oils,\nserums,\neye,\nCleansers and Toners,\nexfoliators and masks,\ncosmetics,\naccessories and tools,\nduos,\nGift Sets,\nbody,",
+            "show_label": false,
+            "use_accordion": true,
+            "open_filtergroup": false
+          }
+        }
+      },
+      "block_order": [
+        "00b3badd-1613-4230-85d8-f87f04306aaa",
+        "12d1fe74-103e-49f7-af9e-dbab0a907ac4",
+        "179c1f73-c0b7-485a-a1ad-b7e3ace2dc3b"
+      ],
+      "settings": {
+        "container": "container-fluid",
+        "bg": "shopify:\/\/shop_images\/botanical_shadow_1_FINAL_1024x1024_86fc2093-e7a8-4da5-8985-67437c83955f.jpg",
+        "grid_layout": "grid",
+        "grid_columns": "4",
+        "show_columns_switcher": false,
+        "pagination_limit": 24,
+        "paginate_type": "paginate",
+        "show_sorting": false,
+        "show_filter": false,
+        "filters_type": "tags_filter",
+        "sidebar": "topColumn",
+        "sidebar_title": "REFINE BY",
+        "limit_height_widget": false,
+        "limit_height": 300,
+        "change_product_variant_on_fitlering": true,
+        "show_product_count": true,
+        "collapsed_groups": "Brand, Vendor, Size",
+        "color_swatches": "color,colour,couleur,farbe"
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "main"
+  ]
+}

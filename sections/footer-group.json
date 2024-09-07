@@ -1,0 +1,101 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "a4bbb757-ccb9-4a85-b9a9-54b529971156": {
+          "type": "custom_html",
+          "settings": {
+            "title": "GET ALL THE GOODS!",
+            "html": "<p>Join our e-mail list to find out about our product launches, skincare routines and whatever else is on our minds, and <b>get 15% off<\/b> your first order!<\/p>\n<div class=\"klaviyo-form-NfLRT7\"><\/div>\n\n<br>\n<p> \nP.S. - Sign up for texts and get access to exclusive deals! <\/p><div class=\"klaviyo-form-XXC9aS\"><\/div>",
+            "width": "40%",
+            "order_first": false,
+            "open_default": true
+          }
+        },
+        "block-3": {
+          "type": "menu",
+          "settings": {
+            "menu": "customer-service-1",
+            "title": "CUSTOMER SERVICE",
+            "width": "20%",
+            "order_first": false,
+            "open_default": true
+          }
+        },
+        "block-4": {
+          "type": "menu",
+          "settings": {
+            "menu": "customer-service",
+            "title": "INFORMATION",
+            "width": "20%",
+            "order_first": false,
+            "open_default": true
+          }
+        },
+        "block-5": {
+          "type": "our_store",
+          "settings": {
+            "title": "SOCIAL",
+            "description": "",
+            "show_email": false,
+            "show_phone": false,
+            "show_socials_link": true,
+            "width": "20%",
+            "order_first": false,
+            "open_default": true
+          }
+        }
+      },
+      "block_order": [
+        "a4bbb757-ccb9-4a85-b9a9-54b529971156",
+        "block-3",
+        "block-4",
+        "block-5"
+      ],
+      "settings": {
+        "design": "footer-2",
+        "container": "container-fluid",
+        "bordered": false,
+        "copyright": "© 2024 IN YOUR FACE SKINCARE. ALL RIGHTS RESERVED.",
+        "show_country_selector": false,
+        "show_currency_selector": false,
+        "show_language_selector": false,
+        "show_social_links": false,
+        "show_payment_icons": false,
+        "payment_icons_width": 300
+      }
+    },
+    "mobile-sticky-bar": {
+      "type": "mobile-sticky-bar",
+      "settings": {
+        "show_mobile_sticky": false,
+        "show_home_icon": true,
+        "show_collection_icon": true,
+        "show_cart_icon": true,
+        "show_search_icon": true,
+        "show_account_icon": false,
+        "show_wishlist_icon": false
+      }
+    },
+    "age-verifier-popup": {
+      "type": "age-verifier-popup",
+      "disabled": true,
+      "settings": {
+        "design_mode": false,
+        "enable": false,
+        "bg_blur": true,
+        "decline_heading": "Come back when you're older",
+        "decline_content": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+        "return_button": "Oops, I entered incorrectly"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "mobile-sticky-bar",
+    "age-verifier-popup"
+  ]
+}

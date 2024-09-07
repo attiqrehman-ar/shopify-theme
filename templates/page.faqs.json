@@ -1,0 +1,232 @@
+{
+  "sections": {
+    "f3db3554-aeed-4a5e-beaa-82ff885f64cf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<\/br>\n<h1 class=\"faqs-h1\"><center>Frequently Asked Questions<\/h1><\/center>\n<\/p>\n<\/br>",
+        "custom_class": ""
+      }
+    },
+    "main": {
+      "type": "page-faqs",
+      "blocks": {
+        "5e62d9ce-2485-4b9e-9fd3-20499257f6b9": {
+          "type": "content",
+          "settings": {
+            "content": "<br>\n<h2 class=\"faqs-h2\">ORDERS, SHIPPING &amp; RETURNS<\/h2>"
+          }
+        },
+        "accordion-4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: How do I apply a discount code?",
+            "content": "<p>A: <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/discount-codes\">Click here <\/a>to go to that page.<\/p>",
+            "open": false
+          }
+        },
+        "0790ae26-955e-4d22-b7ac-5ccf15d2f103": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Do you offer free shipping?",
+            "content": "<p>A: All orders over $95 are shipped standard shipping for free. You can find out more information on the <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/shipping-returns\">SHIPPING & RETURNS <\/a>page.<\/p>",
+            "open": false
+          }
+        },
+        "fcc15783-1b62-4f2b-815c-bff97ee7035d": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: When will I get my order?",
+            "content": "<p>After placing your order, please <strong>allow 2-3 business days for processing. <\/strong>You'll receive an email with a tracking number once your product ships. Add the number of days on your chosen shipping speed to that shipping day, and that's when you can expect your order. 😊<br\/><br\/><strong>Important to note: <\/strong>sometimes you will receive an email (or notice) that your package is delivered, but in fact it may still be in your mail carrier's truck or at your post office where it was scanned. Fear not, it will arrive in 24-48 hours from that point! Do <a href=\"mailto:contact@inyourfaceskincare.com\">contact us<\/a> if it hasn't. <\/p>",
+            "open": false
+          }
+        },
+        "ecaed403-a513-4021-9130-791a200a1947": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Do you offer returns?",
+            "content": "<p>A: We are committed to giving you our very best service and we want you to LOVE every aspect of your IN YOUR FACE SKINCARE experience.<br\/><br\/>If you are not enamored with your choice, we do not wish for it to gather dust or disappointment. If you would prefer a return, we'll make the process as easy as possible. Just reach out to us at <a href=\"mailto:contact@inyourfaceskincare.com\" title=\"mailto:contact@inyourfaceskincare.com\">contact@inyourfaceskincare.com<\/a> with your name and order number and we will make it right! 💚<br\/><br\/>You can find out more info on the <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/shipping-returns\">SHIPPING & RETURNS<\/a> page.<\/p>",
+            "open": false
+          }
+        },
+        "5d35be84-2b8f-43a3-942a-e69ab004754a": {
+          "type": "content",
+          "settings": {
+            "content": "<br>\n<h3>THE CREAM<\/h3>"
+          }
+        },
+        "401e3c2d-1cb5-4ffb-86cf-4e95a4833696": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Does the CREAM need to be refrigerated?",
+            "content": "<p>Because of the extremely natural formulation, we want to make sure people are not storing it on their windowsill or leaving the jar open for days or keeping it for over 18 months. <br\/><br\/>But stored in a regular living environment temperature, you are totally fine! Some clients enjoy the feel of a colder cream. I prefer it room temp as it emulsifies and absorbs in the skin faster.<\/p>",
+            "open": false
+          }
+        },
+        "70ba47e3-d9cf-49de-b96e-65f78925dc76": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Is the CREAM non-comedogenic?",
+            "content": "<p>Because I’m super passionate and extremely ethical and up front as a person and in my business, to answer “Yes! It's completely non-comedogenic” would not be truthful as the term itself has “many loopholes and discrepancies”.<br\/><br\/>Here’s why: The term \"non-comedogenic” unfortunately is not regulated. Any brand can claim that. There are a lot of companies that would like you to think, for example, that coconut oil is comedogenic, and to use their man-made mineral oils and silicones instead. There is a comedogenic scale from the 60’s and 70’s called \"rabbit ear tests\" where they used unrealistically high concentrations of product. There isn’t really a single definition for non-comedogenic. Also so many other factors play a part like hormones and diet and climate.<br\/><br\/>But this isn’t to say that comedogenic ratings are completely unfounded, some comedogenic ingredients (such as isopropyl myristate, isopropyl palmitate, ethylhexyl palmitate, and acetylated lanolin) can absolutely cause breakouts in acne-prone skin if they're present at high enough concentrations. <br\/><br\/><strong>Our CREAM doesn’t have any of those ingredients<\/strong>. Sometimes active and effective skincare and treatments can stimulate skin to detox and purge clogged pores in which case those white heads come to the surface to be cleansed and removed without damage to the dermis. We have aesthetician customers who have experienced that with our cream revealing a smoother complexion within its a couple of weeks.<br\/><br\/>So it's definitely something that is very personal with your skin type. And we do offer a money back guarantee!<\/p>",
+            "open": false
+          }
+        },
+        "e8761310-7709-4f2b-9ef7-7cd347a49d1e": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Is the cream good for menopausal skin that is dry and acne-prone?",
+            "content": "<p>Absolutely! Our CREAM is good for hormonal breakouts of menopausal and drying, mature skin. My customers are primarily 40-75. <br\/><br\/>If any purging occurs within the first few days it's only temporary detoxing and cleansing of any clogged pores, since the deep hydration of this cream has vitamin C and E and enzymes which help heal skin. <br\/><br\/>The rich softness helps to soften old, dead dried skin which lies beneath the skin's surface and helps purge it our for new skin growth. Give it a good 3 week try. Use lightly for the first few days, just as a night cream in the beginning then you can use during the day and\/or night.<br\/><br\/>You only need the tiniest amount!<\/p>",
+            "open": false
+          }
+        },
+        "9ab22e93-7f69-4135-a482-eba61c675812": {
+          "type": "content",
+          "settings": {
+            "content": "<br>\n<h3>PRODUCT QUESTIONS<\/h3>"
+          }
+        },
+        "4e1c8326-b150-4e0e-8d35-8bcb114c25bd": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: How long until I see results?",
+            "content": "<p>We encourage our clients to be consistent for at least 90 days with our collection. Changes in skin happen over time, and when working with the body as a whole, and not just your product regime.<br\/><br\/>It’s important to remember as well that skin likes consistency and change can freak it out. It can take time to find your natural rhythm, as well as to find your ideal fit. <br\/><br\/>There is an expectation that we see often when clients are transitioning that the very first natural face oil or cleanser they reach for be “the one.” And when the sky doesn’t open up and angels start singing, they toss in the towel entirely, writing off natural skincare as something that “didn’t work for them.” I could go pick up 50 different conventional skincare products today, and 45 wouldn’t work for me - the same is true of natural skincare. Try to let go of the expectation that every product is going to be a hit. It won’t. Just as it took years for you to find your current favorites, it will take time to find new products, ingredients, and brands that resonate with you as an individual in this exact moment in time. Be patient and gentle with yourself and do reach out for help. We are here for you!<\/p>",
+            "open": false
+          }
+        },
+        "f931efc3-a016-4730-b464-aea60f7fade9": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: My product arrived separated\/melted\/frozen, help!",
+            "content": "<p>It's rare, but sometimes products can arrive separated or partially frozen due to weather. It's only natural.<br\/><br\/>In summer, moisturizers may melt, while our toners could arrive partially frozen in winter. If your product does arrive in an altered state, check out our instructions below:<br\/><br\/><strong>If separated or melted: <\/strong>Stir it gently and thoroughly, and if desired, place in refrigerator for an hour.<br\/><br\/><strong>If frozen: <\/strong>Leave at room temperature overnight to thaw, and then stir gently and thoroughly.<br\/><br\/>Going forward, keep your moisturizer stored at room temperature away from direct sunlight to maintain consistency.<\/p>",
+            "open": false
+          }
+        },
+        "75154391-addf-4312-ab49-df9b95ed2a6d": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: How come my jar doesn't look full?",
+            "content": "<p>First of all, we are very intentional about our recyclable glass packaging. Even our discovery sizes are made of glass.  <br\/><br\/>We also do not use any plastic inserts which give the apparency of more product as they necessitate a large jar. So what you see is what you get. We’ve kept our packaging very clean, and environmentally kind.<br\/><br\/>Everything is filled by the weight listed on the jar or bottle so if you see any additional room, it's only from settling or shifting during shipping. <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/5315\/2559\/files\/eye_gel_shipping.png?v=1688132875\" target=\"_blank\" title=\"example of product shifting during shipping\">Click here for an example<\/a> of what that looks like! <br\/><br\/>Our bottles and jars are usually a bit larger to allow for maximum sized lid\/cap safety and that can leave room for the product inside to shift during shipping, sometimes settling on the disc liner or creating an air bubble.  <br\/><br\/>But rest assured you are getting the full fill by weight of your product and if you close it and bang it gently on a towel covered counter, it will settle back down. <\/p>",
+            "open": false
+          }
+        },
+        "ac810d20-2ff2-4e2a-9818-602bb2c0768c": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Are all your products Gluten Free?",
+            "content": "<p>A: Yes. The founder's husband has Celiac and she wanted to make sure he could use these wonderful products! And he does. ❤️<\/p>",
+            "open": false
+          }
+        },
+        "f72aefb1-f1b2-4f5e-b5de-908f2d9d31ab": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Are your products OK for vegetarians & vegans?",
+            "content": "<p>A: The <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/ingredients\" target=\"_blank\">INGREDIENTS<\/a> page makes extended reference to the natural content of each formulation as well as the ingredients that we select. While we believe almost all of our ingredients are, we would leave it up to you to determine if the product is suitable for vegetarians \/ vegans.<\/p>",
+            "open": false
+          }
+        },
+        "0d3831dd-f014-43bb-adf6-c5acc677ed52": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Is your collection safe for children and for pregnant or breast-feeding women?",
+            "content": "<p>Our entire collection is safe for pre-conception, pregnancy, breastfeeding, and beyond. These are the perfect treats to keep in your skincare arsenal as you navigate the hormone fluctuations and skin concerns that go right along with this powerful time. <br\/><br\/>We would advise all pregnant \/ breast-feeding women to consult with their doctors before the use of <em>any<\/em> new product. The detailed <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/ingredients\" target=\"_blank\">INGREDIENTS<\/a> page will help the doctor decide whether a product can be used or not. All our products are developed based on natural and \/ or organic ingredients, with safety and efficacy being top priorities. While we do all we can to make sure all products will be safe for you and your baby, it is recommended to consult your doctor before you start using a product.<br\/><br\/>Our <a href=\"\/products\/creamy-body-oil\" title=\"HYDRATING CREAMY BODY OIL\">HYDRATING CREAMY BODY OIL<\/a> is a wonderful baby lotion. This gorgeous formula is incredibly soothing for delicate  or irritated skin.<\/p>",
+            "open": false
+          }
+        },
+        "c10659e9-b312-4fa6-93f1-4bb1a8becf7a": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Why the jar instead of air-sealed-pump packaging?",
+            "content": "<p>First of all, we are very intentional about our recyclable glass packaging. Even our discovery sizes are made of glass. We also do not use any plastic inserts, which give the apparency of more product as they necessitate a large jar. So what you see is what you get.  <br\/><br\/>We’ve kept our packaging very clean and environmentally kind. Everything is filled by the weight listed on the jar or bottle - so if you see any additional room, its only from settling or shifting during shipping. Our bottle and jars are usually a bit larger to allow for maximum-sized lid or cap for safety.  As for protection from the air, rich oils like coconut and olive oil make an excellent preservation system for all ingredients in skincare formulas. Also, Vitamin E is used to prevent oxidation of oils as a preservative. Additionally, we have to plant-based preservative called Lactoperoxidase which is an enzyme derived from milk that also has unique properties to restore skin's surface flora as well as in the pores. And glucose oxidase is from raw sugar enzyme and it provides a complete and natural quality control for product anti-microbial stability with a solid two-year shelf life.<br\/><br\/>Considering we make our products in very small batches and only sell from our website for quality control and sell to very savvy, health-conscious customers who know to keep their plant-based products out of the window sills, there have been no problems with the efficacy of our formula. We are always testing and staying on top of our ingredients and the purity of them because ultimately we are only as good as our customers happiness, results, and their desire to re-order. So thank you for really caring about the integrity of the clean skincare movement!<\/p>",
+            "open": false
+          }
+        },
+        "76765ebc-e470-45cf-ab90-b41328221e3f": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Is your packaging made from recycled material?",
+            "content": "<p>A: As much as possible, we use recyclable materials. That is one of the reasons our full-sized products are in glass containers. When there is a feasible non-plastic pump and cap solution, we will use those too!<\/p>",
+            "open": false
+          }
+        },
+        "9d4fc85b-c36b-45b8-bfa1-cc30c12c87a6": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Do you test on animals?",
+            "content": "<p>A: We are strictly against animal testing, and do not test any ingredients or products on animals, nor do we hire outside companies to do so for us at any stage in production. We do not sell to any countries that require animal testing and we follow the EU's strict legislation that bans animal testing on finished cosmetic products and their ingredients.<\/p>",
+            "open": false
+          }
+        },
+        "195a3bac-e9df-4914-955a-3c644267494c": {
+          "type": "content",
+          "settings": {
+            "content": "<br>\n<h3>MY ACCOUNT<\/h3>"
+          }
+        },
+        "f99d3855-3504-4716-8828-444b2f7bd0f9": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: How do I get into my account?",
+            "content": "<p>A: If you need to reset your password, <a href=\"https:\/\/inyourfaceskincare.com\/account\/login?return_url=%2Faccount\" title=\"https:\/\/inyourfaceskincare.com\/account\/login?return_url=%2Faccount\">go to this page<\/a>.<\/p>",
+            "open": false
+          }
+        },
+        "ec7c9330-a281-45ea-81ce-e93378c951c6": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: How do I sign up for, or sign into my Rewards program?",
+            "content": "<p>A: <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/rewards-program-faqs\">Click here <\/a>to go to that page.<\/p>",
+            "open": false
+          }
+        },
+        "28c89931-07a7-4599-8719-d996d7606e0b": {
+          "type": "content",
+          "settings": {
+            "content": "<br>\n<h3>RETAIL<\/h3>"
+          }
+        },
+        "784cda6b-37a3-4fb0-ad4c-a4e2c8e0e223": {
+          "type": "accordion",
+          "settings": {
+            "title": "Q: Who can I contact regarding retail and wholesale inquiries?",
+            "content": "<p>A: Are you a spa owner and would love to incorporate IN YOUR FACE SKINCARE into your practice? Or do you run a business and want to share IN YOUR FACE SKINCARE magic with your customers? We are always interested in developing relationships with potential distributors. <br\/><br\/>For wholesale and retail inquiries, please contact us <a href=\"https:\/\/in-your-face-by-denice-duff.myshopify.com\/pages\/contact-us\" target=\"_blank\">here<\/a>.<\/p>",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "5e62d9ce-2485-4b9e-9fd3-20499257f6b9",
+        "accordion-4",
+        "0790ae26-955e-4d22-b7ac-5ccf15d2f103",
+        "fcc15783-1b62-4f2b-815c-bff97ee7035d",
+        "ecaed403-a513-4021-9130-791a200a1947",
+        "5d35be84-2b8f-43a3-942a-e69ab004754a",
+        "401e3c2d-1cb5-4ffb-86cf-4e95a4833696",
+        "70ba47e3-d9cf-49de-b96e-65f78925dc76",
+        "e8761310-7709-4f2b-9ef7-7cd347a49d1e",
+        "9ab22e93-7f69-4135-a482-eba61c675812",
+        "4e1c8326-b150-4e0e-8d35-8bcb114c25bd",
+        "f931efc3-a016-4730-b464-aea60f7fade9",
+        "75154391-addf-4312-ab49-df9b95ed2a6d",
+        "ac810d20-2ff2-4e2a-9818-602bb2c0768c",
+        "f72aefb1-f1b2-4f5e-b5de-908f2d9d31ab",
+        "0d3831dd-f014-43bb-adf6-c5acc677ed52",
+        "c10659e9-b312-4fa6-93f1-4bb1a8becf7a",
+        "76765ebc-e470-45cf-ab90-b41328221e3f",
+        "9d4fc85b-c36b-45b8-bfa1-cc30c12c87a6",
+        "195a3bac-e9df-4914-955a-3c644267494c",
+        "f99d3855-3504-4716-8828-444b2f7bd0f9",
+        "ec7c9330-a281-45ea-81ce-e93378c951c6",
+        "28c89931-07a7-4599-8719-d996d7606e0b",
+        "784cda6b-37a3-4fb0-ad4c-a4e2c8e0e223"
+      ],
+      "settings": {
+        "container": "container",
+        "menu": ""
+      }
+    }
+  },
+  "order": [
+    "f3db3554-aeed-4a5e-beaa-82ff885f64cf",
+    "main"
+  ]
+}

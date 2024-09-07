@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "custom_liquid_9KtnJP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"text-align: center; font-size: 38px;\"> Retail Partners<\/h1>",
+        "custom_class": ""
+      }
+    },
+    "1661875098917f17a4": {
+      "type": "custom-content",
+      "blocks": {
+        "16618750982e932c5f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/find_IYF_locations_45059575-5149-4c16-9a06-4a0be2a798ec.png",
+            "heading": "",
+            "image_heading": "",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "16618750982e932c5f-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p>Are you a spa owner and would love to incorporate IN YOUR FACE SKINCARE into your practice? Or do you run a business and want to share IN YOUR FACE SKINCARE magic with your customers? We are always interested in developing relationships with potential distributors. <\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "CONTACT US",
+            "button_link": "https:\/\/inyourfaceskincare.com\/pages\/contact-us",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "16618750982e932c5f-1",
+        "16618750982e932c5f-0"
+      ],
+      "settings": {
+        "hideondesk": false,
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1661884113421cbc66": {
+      "type": "custom-content",
+      "blocks": {
+        "1661884113eb098549-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "subheading": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "1661884113eb098549-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "image_heading": "",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661884113eb098549-0",
+        "1661884113eb098549-1"
+      ],
+      "settings": {
+        "hideondesk": false,
+        "heading": "Retail Partners & Spa Locator",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1661881491e833222f": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "fcc990c9-2cf7-48cc-9a69-4f0c8cd216a3": {
+          "type": "item",
+          "settings": {
+            "header": "California",
+            "content": "<p><strong>Murrieta Day Spa<\/strong><br\/>\n41885 Ivy St.<br\/>\nMurrieta, CA 92562\n<br\/>(951) 677-8111<\/p>\n<p>\n<strong>Azure Palm Hot Springs<\/strong><br\/>\n67589 Hacienda Ave<br\/>\nDesert Hot Springs, CA 92240\n<br\/>760-251-2000",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "42c7c699-7118-4806-852e-b4604c252005": {
+          "type": "item",
+          "settings": {
+            "header": "Colorado",
+            "content": "<p><strong>Velvet Monkey Salon & Spa<\/strong><br\/>10 Town Plaza #207<br\/>Durango, CO 81301<br\/>(970) 799-2516<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_Drt6hw": {
+          "type": "item",
+          "settings": {
+            "header": "Iowa",
+            "content": "<p><strong>NHIC Des Moines\n<br\/><\/strong>403 SW 8th St\n<br\/>Des Moines, IA 50309<br\/>(515) 243-0173<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "1661881491348d2f76-0": {
+          "type": "item",
+          "settings": {
+            "header": "Louisiana",
+            "content": "<p><strong>Earthsavers Spa + Store<br\/><\/strong>3301 Veterans Blvd.<br\/>Suite 140<br\/>Metairie, LA 70002<br\/>(203) 594-9700<br\/><br\/><\/p><p><strong>Earthsavers Spa + Store<br\/><\/strong>3414 US Hwy 190<br\/>Mandeville, LA 70471<br\/>(203) 594-9700<\/p><p><strong><br\/>Earthsavers Spa + Store<br\/><\/strong>5501 Magazine Street<br\/>New Orleans, LA 70115<br\/>(203) 594-9700<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_DRzmYP": {
+          "type": "item",
+          "settings": {
+            "header": "Michigan",
+            "content": "<p><strong>Alternative Health Care Center\n<br\/><\/strong>20415 Mack Ave\n<br\/>Grosse Pointe Woods, MI 48236<br\/>\n(313) 881-7677<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "1661881491348d2f76-1": {
+          "type": "item",
+          "settings": {
+            "header": "Montana",
+            "content": "<p><strong>Moo Country<br\/><\/strong>c\/o The Pollard Hotel<br\/>2 North Broadway Avenue<br\/>Red Lodge, MT 59068<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "item_dMFHGV": {
+          "type": "item",
+          "settings": {
+            "header": "New York",
+            "content": "<p><strong>Salon Allure\n<br\/><\/strong>259 Glen Cove Ave #247\n<br\/>Sea Cliff, NY 11579<br\/>\n(516) 676-1055 <\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "a18dd852-16a1-4df4-af09-554fc989b67a": {
+          "type": "item",
+          "settings": {
+            "header": "Tennessee",
+            "content": "<p><strong>Moo Country<br\/><\/strong>4208 Old Hillsboro Rd - Log Cabin<br\/>ste 100\/log cabin<br\/>Franklin TN 37064<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "8db57ed1-c968-4f30-9425-583cffd62eab": {
+          "type": "item",
+          "settings": {
+            "header": "Texas",
+            "content": "<p><strong>Elite Retreat Spa and Skin Care\n<br\/><\/strong>1264 Harwood Road\n<br\/>Bedford, TX 76021<br\/>(469) 501-2484<\/p>\n<p><strong>Junk Gypsy<br\/><\/strong>1215 S. State Hwy 237<br\/>Round Top, TX 78954<br\/>(979) 249-5865<\/p>",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "fcc990c9-2cf7-48cc-9a69-4f0c8cd216a3",
+        "42c7c699-7118-4806-852e-b4604c252005",
+        "item_Drt6hw",
+        "1661881491348d2f76-0",
+        "item_DRzmYP",
+        "1661881491348d2f76-1",
+        "item_dMFHGV",
+        "a18dd852-16a1-4df4-af09-554fc989b67a",
+        "8db57ed1-c968-4f30-9425-583cffd62eab"
+      ],
+      "settings": {
+        "container": "container"
+      }
+    },
+    "main": {
+      "type": "page-find-a-store",
+      "blocks": {
+        "f1a43d71-6a07-40f2-98d7-077a75b019ea": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "66%"
+          }
+        },
+        "f984f10b-1b7b-4cdf-a354-e37f31a6467c": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "Valencia Street Shop",
+            "content": "<div class=\"sf__store-info\">\n  <div class=\"rte sf__store-item\">\n      <h4>Address<\/h4>\n      <p class=\"text-color-subtext\">461 Valencia Street San<br> Francisco, CA 94103<\/p>\n      <a href=\"#\">Get Direction<\/a>\n  <\/div>\n  <div class=\"rte sf__store-item\">\n      <h4>We're Open<\/h4>\n      <p class=\"text-color-subtext\">Our store has re-opened for<br> shopping, exchanges<br>\nEvery day 11am to 7pm<\/p>\n  <\/div>\n  <div class=\"rte sf__store-item\">\n      <h4>Message<\/h4>\n      <p class=\"text-color-subtext\">Send us a text &amp; an<br> ambassador will respond<br> when available.<\/p>\n      <p>1-814-251-9966<\/p>\n  <\/div>\n  <div class=\"sf__store-item\">\n      <h4>Social Media<\/h4>\n      <ul>\n        <li><a href=\"#\"><svg class=\"w-[20px] h-[20px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 384 512\"><path fill=\"currentColor\" d=\"M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z\"><\/path><\/svg><\/a><\/li>\n        <li><a href=\"#\"><svg class=\"w-[20px] h-[20px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 320 512\"><path fill=\"currentColor\" d=\"M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z\"><\/path><\/svg><\/a><\/li>\n        <li><a href=\"#\"><svg class=\"w-[20px] h-[20px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 448 512\"><path fill=\"currentColor\" d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\"><\/path><\/svg><\/a><\/li>\n        <li><a href=\"#\"><svg class=\"w-[20px] h-[20px]\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z\"><\/path><\/svg><\/a><\/li>\n      <\/ul>\n  <\/div>\n<\/div>",
+            "width": "33%"
+          }
+        }
+      },
+      "block_order": [
+        "f1a43d71-6a07-40f2-98d7-077a75b019ea",
+        "f984f10b-1b7b-4cdf-a354-e37f31a6467c"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "gap": 100,
+        "gap_mobile": 16
+      }
+    },
+    "custom_content_iGXggQ": {
+      "type": "custom-content",
+      "blocks": {
+        "image_LQadwP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/check_out_our_brand_deck.png",
+            "heading": "",
+            "image_heading": "",
+            "link": "https:\/\/inyourfaceskincare.com\/pages\/brand-deck",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_LQadwP"
+      ],
+      "settings": {
+        "hideondesk": false,
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_9KtnJP",
+    "1661875098917f17a4",
+    "1661884113421cbc66",
+    "1661881491e833222f",
+    "main",
+    "custom_content_iGXggQ"
+  ]
+}

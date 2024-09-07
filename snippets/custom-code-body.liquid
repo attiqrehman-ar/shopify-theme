@@ -1,0 +1,88 @@
+{%- comment -%}
+  Custom code before </body>
+  All custom code in this file will be kept when updating the theme
+{%- endcomment -%}
+
+
+
+<script>
+ $(document).ready(function()
+{
+      $('.list li a').click(function()
+      {
+       
+        $('.list li a').removeClass('active');
+        $(this).addClass('active');
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        
+      });
+      
+ if(  $(window).width() < 768 )
+ {
+$('.template-product .main-product__block .prod__accordion .sf__accordion-item .sf__accordion-button').trigger('click');
+ }  
+    
+});
+  
+ 
+</script>
+<script type="text/javascript">
+      $(document).ready(function() {
+        $('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+        
+        
+    $('.homelogo').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+		    
+        
+        
+        $('.sf__toggle-submenu > a').click(function(e)
+        {
+          e.preventDefault();
+          $(this).siblings('.sf__toggle-submenu-mb').trigger('click');
+        });
+        
+        
+        
+        
+      });
+  
+  
+  
+    </script>

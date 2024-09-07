@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {}
+    },
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "container": "container",
+        "text_alignment": "left",
+        "hide_current": false,
+        "hide_on_mb": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_onmob": true
+          }
+        },
+        "d80d7f50-8257-42df-b68a-c62aa54649d8": {
+          "type": "text",
+          "settings": {
+            "show_onmob": true,
+            "text": "{{ product.metafields.my_fields.tagline_under_product_title.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "a3b48c4f-d17c-4444-807c-a9d6fdaaeff8": {
+          "type": "short_description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_saving": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
+        "334d1b5c-0358-4a1d-bb8e-52eaa20a90cb": {
+          "type": "combine",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        },
+        "1ef18b50-2939-4c15-810c-487891639a98": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/badges_800_x_275_px_800_x_215_px_-3_copy.png",
+            "image_link": "",
+            "image_width": 100,
+            "image_alignment": "center"
+          }
+        },
+        "8225e10e-9e81-411b-8c17-4ab4eb3d433f": {
+          "type": "collapsible_tab1",
+          "settings": {
+            "heading": "WHAT IT IS",
+            "default_open": true
+          }
+        },
+        "d5031e81-dba5-4fa0-9c7d-6725ebfc43fd": {
+          "type": "collapsible_tab2",
+          "settings": {
+            "heading": "WHY YOU NEED IT",
+            "default_open": true
+          }
+        },
+        "ad0b7180-e255-4cbe-a1cb-aae92472d9db": {
+          "type": "collapsible_tab3",
+          "disabled": true,
+          "settings": {
+            "heading": "NOTHING TO HIDE (FULL INGREDIENTS LIST)",
+            "default_open": true
+          }
+        },
+        "debd5b08-0092-4338-b6c0-061d4fac0dc0": {
+          "type": "collapsible_tab4",
+          "settings": {
+            "heading": "HOW TO USE",
+            "default_open": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "d80d7f50-8257-42df-b68a-c62aa54649d8",
+        "a3b48c4f-d17c-4444-807c-a9d6fdaaeff8",
+        "price",
+        "variant_picker",
+        "334d1b5c-0358-4a1d-bb8e-52eaa20a90cb",
+        "buy_buttons",
+        "1ef18b50-2939-4c15-810c-487891639a98",
+        "8225e10e-9e81-411b-8c17-4ab4eb3d433f",
+        "d5031e81-dba5-4fa0-9c7d-6725ebfc43fd",
+        "ad0b7180-e255-4cbe-a1cb-aae92472d9db",
+        "debd5b08-0092-4338-b6c0-061d4fac0dc0"
+      ],
+      "settings": {
+        "container": "container",
+        "layout": "layout-1",
+        "show_atwl": true,
+        "enable_history_state": true,
+        "enable_variant_group_images": false,
+        "show_featured_media": true,
+        "show_zoom_button": false,
+        "enable_video_autoplay": false,
+        "show_nav_media_mobile": false,
+        "show_pagination_mobile": true,
+        "use_sticky_atc": false,
+        "use_sticky_atc_on_mobile": false,
+        "enable_dynamic_checkout": false,
+        "sticky_atc_wishtlist": true,
+        "sticky_atc_compare": false
+      }
+    },
+    "product-details-tabs": {
+      "type": "product-details-tabs",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "bg_color": "",
+        "default_open": true
+      }
+    },
+    "165048049918573108": {
+      "type": "apps",
+      "blocks": {
+        "83478810-11c4-40b5-acf3-598fb9eada45": {
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "83478810-11c4-40b5-acf3-598fb9eada45"
+      ],
+      "settings": {
+        "heading": "Ratings & Reviews",
+        "subheading": "Real People. Real Results.",
+        "header_alignment": "left",
+        "container": "w-full",
+        "background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "app_review_heading"
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {}
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "breadcrumb",
+    "main",
+    "product-details-tabs",
+    "165048049918573108",
+    "zp-product-footer-content"
+  ]
+}

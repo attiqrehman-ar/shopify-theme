@@ -1,0 +1,681 @@
+{
+  "sections": {
+    "splide_slider_riXx7J": {
+      "type": "splide-slider",
+      "blocks": {
+        "image_3epLTB": {
+          "type": "image",
+          "settings": {
+            "desktop-image": "shopify:\/\/shop_images\/travel-set-web-hero-with-cloths.jpg",
+            "title": "THE TRAVEL SET!",
+            "description_text": "<p>Introducing your new travel BFF!<\/p><p>All your faves in adorable, TSA-friendly sizes<\/p><p>so you can take them with you everywhere you go.<\/p>",
+            "link-text": "GET YOURS",
+            "mobile-image": "shopify:\/\/shop_images\/travel_set_mobile_hero_with_cloths.png",
+            "link-url": "shopify:\/\/products\/travel-set"
+          }
+        }
+      },
+      "block_order": [
+        "image_3epLTB"
+      ],
+      "settings": {}
+    },
+    "16452800764e6e58e1": {
+      "type": "slider",
+      "blocks": {
+        "1645280076e53e8d23-0": {
+          "type": "slider_item",
+          "settings": {
+            "background": "shopify:\/\/shop_images\/travel-set-web-hero-with-cloths.jpg",
+            "mb_background": "shopify:\/\/shop_images\/travel_set_mobile_hero_with_cloths.png",
+            "content_in_container": false,
+            "content_position": "right middle",
+            "text_alignment": "right",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "The Travel Set!",
+            "description": "<p>Introducing your new travel BFF!<\/p><p>All your faves in adorable, TSA-friendly sizes<\/p><p>so you can take them with you everywhere you go.<\/p>",
+            "image_link": "shopify:\/\/products\/travel-set",
+            "button_text": "GET YOURS",
+            "button_link": "shopify:\/\/products\/travel-set",
+            "button_style": "sf__btn-link",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "efb744ec-833a-4469-94b6-a9f44a4df402": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "background": "shopify:\/\/shop_images\/Untitled_design_16.png",
+            "mb_background": "shopify:\/\/shop_images\/FALL_IS_HERE_MOBILE.png",
+            "content_in_container": false,
+            "content_position": "right middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "AUTUMN GLOW UP",
+            "description": "<p>Fall is here! Give your skin everything it needs to be its best & bounciest during this cooler, drier season.<\/p>",
+            "image_link": "shopify:\/\/collections\/all-products",
+            "button_text": "Shop now",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_style": "sf__btn-link",
+            "button_size": "sf__btn-large",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "fae3f467-cc79-431a-9e95-0fef743d24b3": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "background": "shopify:\/\/shop_images\/holiday_hero_2023_1366_final.png",
+            "mb_background": "shopify:\/\/shop_images\/holiday_hero_2023_mobile.png",
+            "content_in_container": false,
+            "content_position": "right middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "subheading": "",
+            "title": "HOLIDAY GIFTING",
+            "description": "<p>Our curated selection of all natural beauty essentials are perfect for gifting this holiday season.<\/p>",
+            "image_link": "https:\/\/inyourfaceskincare.com\/pages\/holiday-gift-guide",
+            "button_text": "SHOP NOW",
+            "button_link": "https:\/\/inyourfaceskincare.com\/pages\/holiday-gift-guide",
+            "button_style": "sf__btn-link",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "bb35a69e-fe0d-44b7-8f06-d6fe723dcfdc": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "background": "shopify:\/\/shop_images\/holiday-sets-hero-Dec22-1366.jpg",
+            "mb_background": "shopify:\/\/shop_images\/holiday_sets_mobile-Dec-22-1080.jpg",
+            "content_in_container": false,
+            "content_position": "right middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Reboot your skin in 2023!",
+            "description": "<p>Start the year off glowy with our limited edition sets!<\/p>",
+            "image_link": "shopify:\/\/collections\/limited-edition-holiday-sets",
+            "button_text": "Shop now",
+            "button_link": "shopify:\/\/collections\/limited-edition-holiday-sets",
+            "button_style": "sf__btn-link",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "d0904310-7ae6-43eb-9ade-aa67a1a2ceb6": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "background": "shopify:\/\/shop_images\/prime_day_hero_web.png",
+            "mb_background": "shopify:\/\/shop_images\/prime_day_hero_mobile.png",
+            "content_in_container": false,
+            "content_position": "right middle",
+            "text_alignment": "right",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "SUMMER REFRESHERS",
+            "description": "<p>Summer is here! Stock up on all the nutrients your skin needs to beat the heat.<\/p>",
+            "image_link": "shopify:\/\/collections\/all",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_style": "sf__btn-link",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "New Collection",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        },
+        "bd06170c-8b60-4b4e-9d3e-31e6c30d0bd1": {
+          "type": "slider_item",
+          "disabled": true,
+          "settings": {
+            "background": "shopify:\/\/shop_images\/memorial_day_copy.png",
+            "mb_background": "shopify:\/\/shop_images\/memorial_day_mobile.png",
+            "content_in_container": false,
+            "content_position": "right middle",
+            "text_alignment": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "subheading": "",
+            "title": "Transitional Skincare",
+            "description": "<p>Summer is coming! Prepare your skin for changes in climate with our powerful botanical formulas-always 100% free of parabens, phthalates & perfumes.<\/p>",
+            "image_link": "shopify:\/\/collections\/all-products",
+            "button_text": "Shop",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_style": "sf__btn-link",
+            "button_size": "",
+            "show_footer": false,
+            "footer_alignment": "end",
+            "footer_text": "*Sale Excludes gift cards, eGift cards & silver gift bags.",
+            "footer_button": "Shop Now",
+            "footer_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645280076e53e8d23-0",
+        "efb744ec-833a-4469-94b6-a9f44a4df402",
+        "fae3f467-cc79-431a-9e95-0fef743d24b3",
+        "bb35a69e-fe0d-44b7-8f06-d6fe723dcfdc",
+        "d0904310-7ae6-43eb-9ade-aa67a1a2ceb6",
+        "bd06170c-8b60-4b4e-9d3e-31e6c30d0bd1"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "slideshow_height": "adapt",
+        "show_overlay": false,
+        "dots_position": "bottom",
+        "dots_color": "dark",
+        "show_dots": false,
+        "show_arrows": true,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "7ec9b780-e3db-48a8-a9d6-b6073b13a435": {
+      "type": "simpleimage",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TagLineHomePage1366r.png",
+        "mobileimage": "shopify:\/\/shop_images\/TagLineHomePage1024.png"
+      }
+    },
+    "366dabd6-fb8b-485d-b15f-77adfe3a7c9e": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/denice_green_shirt_e342e614-51b1-4ee9-888c-561a68de8ab6.png",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 22,
+        "mobile_text_gap": 22,
+        "title": "Skincare you can eat... but, you know...don’t.",
+        "sub_title": "",
+        "text": "<p>It was our mission to get back to basics and provide all-natural products that contained only the finest natural ingredients and botanical oils, was not tested on animals, and was not in any way toxic to humans or the earth. After years of testing, IN YOUR FACE SKINCARE was born.<br\/><br\/>- Denice Duff, Founder<\/p>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "SHOP THE COLLECTION",
+        "button_link": "shopify:\/\/collections\/all-products",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1648700602883cbc23": {
+      "type": "home-logos",
+      "blocks": {
+        "19a758ca-8c54-4940-8209-f983a44a20bd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allure-logo-163A9213E6-seeklogo.com_1eb3f429-6f7c-46ff-8076-f789f5e5336e.png"
+          }
+        },
+        "f0e142b4-88d4-48ee-a3cc-77e3fd67cf54": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vog.jpg"
+          }
+        },
+        "c2a837de-2055-4112-b8e2-fe87f4437ab4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bzaar.png"
+          }
+        },
+        "ee4d8d22-e826-4372-aa1b-ed206f172db0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glamour.jpg"
+          }
+        },
+        "5bf30e54-9e1e-4208-b0db-4873b949ba4a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/life_af880ce6-eab5-4200-8114-8d3cdd897a25.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "19a758ca-8c54-4940-8209-f983a44a20bd",
+        "f0e142b4-88d4-48ee-a3cc-77e3fd67cf54",
+        "c2a837de-2055-4112-b8e2-fe87f4437ab4",
+        "ee4d8d22-e826-4372-aa1b-ed206f172db0",
+        "5bf30e54-9e1e-4208-b0db-4873b949ba4a"
+      ],
+      "settings": {
+        "heading": "AS SEEN IN",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container-fluid"
+      }
+    },
+    "27508989-ff7c-4c02-9e5c-f06716097025": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "SHOP BEST SELLERS",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "collection": "best-sellers-home",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 5,
+        "items_per_row": 5,
+        "item_gap": 50,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "sf__btn-small",
+        "infinite_load": true,
+        "max_page_load": 3,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "16486953350b356c4c": {
+      "type": "simpleimage",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jenna_elfman_d0c43cc5-98fa-4b96-a156-480a11f33535.png",
+        "mobileimage": "shopify:\/\/shop_images\/jenna_elfman_mobile_1024x1024_df978427-6274-41bc-af0a-e85bbc4dd8e6.png"
+      }
+    },
+    "image_with_text_g4JzgT": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": false,
+        "removespacing": false,
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 100,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/Stacy_Francis_292f233a-5bb9-4080-a4af-1cc446ce0ad8.png",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 100,
+        "mobile_text_gap": 26,
+        "title": "<h3>“As a woman of color, it was hard for me to find products that really worked for me. I’m a very big fan of this product.”<\/h3>\n<p class=\"h6-p\">(Review of THE CREAM)<\/p>",
+        "sub_title": "",
+        "text": "<p><strong>Stacy Francis<\/strong><br\/>Singer, Actress, XFactor Contestant<\/p>",
+        "text_size": "medium",
+        "content_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1646568190ebe95501": {
+      "type": "collection-list",
+      "blocks": {
+        "1646568190f887b562-0": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "moisturizers-oils",
+            "title": "{{ block.settings.collection.title }}",
+            "item_image": "shopify:\/\/shop_images\/moist.jpg"
+          }
+        },
+        "1646568190f887b562-1": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "serums",
+            "title": "Serums",
+            "item_image": "shopify:\/\/shop_images\/serum_square.png"
+          }
+        },
+        "1646568190f887b562-2": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "duos-1",
+            "title": " DUOS & SETS",
+            "item_image": "shopify:\/\/shop_images\/duos___setscollection_web.jpg"
+          }
+        },
+        "f8a65305-2f4e-4cd4-b4b5-68af048eeedf": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "cleansers-toners",
+            "title": "CLEANSERS & TONERS",
+            "item_image": "shopify:\/\/shop_images\/cleansers_Toners-SQ.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1646568190f887b562-0",
+        "1646568190f887b562-1",
+        "1646568190f887b562-2",
+        "f8a65305-2f4e-4cd4-b4b5-68af048eeedf"
+      ],
+      "settings": {
+        "heading": "SHOP COLLECTIONS",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "layout": "grid",
+        "expanded": true,
+        "card_style": "boxed",
+        "text_alignment": "center",
+        "hover_effect": "none",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 4,
+        "item_gap": 0,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": true,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "use_scroll_mobile": true,
+        "mobile_gap": 15,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1646637093bb49a871": {
+      "type": "custom-content",
+      "blocks": {
+        "164663709375d3b552-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "100% FREE FROM",
+            "subheading": "",
+            "text": "<p>PHTHALATES      PARABENS        SULFATES        GMOS        ALCOHOLS        DYES       ARTIFICIAL FRAGRANCE        TOXINS        ANIMAL TESTING<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        },
+        "html_3chXhi": {
+          "type": "html",
+          "settings": {
+            "code": "<style>\n\/* Base styles *\/\n.free-from-title {\ntext-align: center;\nfont-size: 2em;\nmargin-bottom: 20px;\nfont-weight: bold;\n}\n\n.free-from-list {\n display: flex;\n flex-wrap: wrap; \n justify-content: center; \n margin-left: 60px;\n margin-top: 10px;\n gap: 20px;\n font-size: 20px;\n line-height: 1.75; \n font-family: \"Open Sans\", sans-serif;\n}\n\/* Media Query for large desktops *\/\n@media (min-width: 1200px) {\n    .free-from-list {\n        font-size: 22px;\n        margin-left: 0;\n    }\n}\n\n\/* Media Query for tablets and small desktops *\/\n@media (max-width: 1024px) {\n    .free-from-list {\n        font-size: 18px;\n        margin-left: 30px;\n    }\n\n    .free-from-title {\n        font-size: 1.8em;\n    }\n}\n\n\/* Media Query for tablets in portrait mode *\/\n@media (max-width: 768px) {\n    .free-from-list {\n     flex-direction: column; \n        margin-left: 0;\n        text-align: center; \n        font-size: 16px;\n    }\n\n    .free-from-title {\n        font-size: 1.6em;\n    }\n}\n\n\/* Media Query for mobile devices *\/\n@media (max-width: 480px) {\n    .free-from-list {\n        flex-direction: column;\n        gap: 10px; \/* Reduce gap for mobile screens *\/\n        font-size: 14px;\n    }\n\n    .free-from-title {\n        font-size: 1.4em;\n    }\n}\n<\/style>\n\n<h2 class=\"free-from-title\">100% FREE FROM<\/h2>\n<ul class=\"free-from-list\">\n    <li>PHTHALATES<\/li>\n    <li>PARABENS<\/li>\n    <li>SULFATES<\/li>\n    <li>GMOS<\/li>\n    <li>ALCOHOLS<\/li>\n    <li>DYES<\/li>\n    <li>ARTIFICIAL FRAGRANCE<\/li>\n    <li>TOXINS<\/li>\n    <li>ANIMAL TESTING<\/li>\n<\/ul>",
+            "width": "100%",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "164663709375d3b552-0",
+        "html_3chXhi"
+      ],
+      "settings": {
+        "hideondesk": false,
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "1646637099a412c2c6": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "adapt",
+        "show_overlay": false,
+        "image": "shopify:\/\/shop_images\/take_our_quiz_600_x_1000_px_1950_x_600_px_-5.png",
+        "bg_position": "center bottom",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "left top",
+        "text_alignment": "left",
+        "text_size": "large",
+        "text_color": "dark",
+        "title": "FIND YOUR ROUTINE",
+        "subtitle": "",
+        "text": "<p>You are your own person. You have your own unique needs. And so does your skin. Take the Skin Quiz to find out what products are best for you.<\/p>",
+        "button_label": "GET STARTED",
+        "button_link": "https:\/\/inyourfaceskincare.com\/pages\/iyfs-skin-quiz",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "mb_image": "shopify:\/\/shop_images\/take_our_quiz_600_x_1000_px_1950_x_600_px_600_x_600_px_-2.png",
+        "use_content_above": true,
+        "custom_class": "getstarted"
+      }
+    },
+    "164525909116de3f3a": {
+      "type": "image-with-text",
+      "settings": {
+        "hideonmobile": true,
+        "removespacing": true,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "#ffffff",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "image": "shopify:\/\/shop_images\/homepic1.jpg",
+        "link": "shopify:\/\/products\/the-cream",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": true,
+        "text_gap": 50,
+        "mobile_text_gap": 20,
+        "title": "THE ORIGINAL",
+        "sub_title": "",
+        "text": "<p>The one that started it all. It was our mission to get back to basics and provide others with a moisturizing product that contained only the finest natural ingredients and botanical oils, was not tested on animals, and was not in any way toxic to humans or the earth. After years of testing, IN YOUR FACE CREAM was born.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "FIND OUT MORE",
+        "button_link": "shopify:\/\/products\/the-cream",
+        "button_style": "sf__btn-link",
+        "button_size": "sf__btn-small",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "text_first_image_second_LaYYnY": {
+      "type": "text-first-image-second",
+      "settings": {
+        "hideonmobile": true,
+        "removespacing": true,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "#ffffff",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "image": "shopify:\/\/shop_images\/homepic.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 50,
+        "mobile_text_gap": 20,
+        "title": "OUR STORY",
+        "sub_title": "",
+        "text": "<p>Actress and photographer turned skincare founder, Denice Duff took everything she learned from her 4 generations of Italian women and combined it with her years in front of Hollywood make-up artists and dermatologists to create a luxe line of results driven all-natural skincare...<\/p>",
+        "text_size": "medium",
+        "content_alignment": "right",
+        "button_label": "LEARN MORE",
+        "button_link": "shopify:\/\/pages\/our-story",
+        "button_style": "sf__btn-link",
+        "button_size": "sf__btn-small",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "164525917660f146d3": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "hideonmobile": true,
+        "removespacing": true,
+        "heading": "",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "#ffffff",
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "image": "shopify:\/\/shop_images\/homepic.jpg",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "text_gap": 50,
+        "mobile_text_gap": 20,
+        "title": "OUR STORY",
+        "sub_title": "",
+        "text": "<p>Actress and photographer turned skincare founder, Denice Duff took everything she learned from her 4 generations of Italian women and combined it with her years in front of Hollywood make-up artists and dermatologists to create a luxe line of results driven all-natural skincare...<\/p>",
+        "text_size": "medium",
+        "content_alignment": "right",
+        "button_label": "LEARN MORE",
+        "button_link": "shopify:\/\/pages\/our-story",
+        "button_style": "sf__btn-link",
+        "button_size": "sf__btn-small",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "164870257203f4b4be": {
+      "type": "custom-content",
+      "blocks": {
+        "16487025725aef2f4e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepic1.jpg",
+            "heading": "THE ORIGINAL",
+            "image_heading": "<p>The one that started it all. It was our mission to get back to basics and provide others with a moisturizing product that contained only the finest natural ingredients...<\/p><p><br\/><a href=\"\/products\/the-cream\" title=\"THE CREAM\">READ MORE<\/a><\/p>",
+            "link": "shopify:\/\/products\/the-cream",
+            "width": "50%",
+            "alignment": "start",
+            "block_custom_class": "homeimageblock"
+          }
+        },
+        "498854cd-a2d0-4054-8a11-28c9dcb221bd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepic.jpg",
+            "heading": "OUR STORY",
+            "image_heading": "<p>I learned at an early age that good health comes from within. At one point we had 5 generations of Sicilian women! My great-grandmother had...<br\/><br\/><a href=\"\/pages\/our-story\" title=\"OUR STORY\">READ MORE<\/a><\/p>",
+            "link": "shopify:\/\/pages\/our-story",
+            "width": "50%",
+            "alignment": "start",
+            "block_custom_class": "homeimageblock"
+          }
+        }
+      },
+      "block_order": [
+        "16487025725aef2f4e-1",
+        "498854cd-a2d0-4054-8a11-28c9dcb221bd"
+      ],
+      "settings": {
+        "hideondesk": true,
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": "mobile_image_with_text"
+      }
+    }
+  },
+  "order": [
+    "splide_slider_riXx7J",
+    "16452800764e6e58e1",
+    "7ec9b780-e3db-48a8-a9d6-b6073b13a435",
+    "366dabd6-fb8b-485d-b15f-77adfe3a7c9e",
+    "1648700602883cbc23",
+    "27508989-ff7c-4c02-9e5c-f06716097025",
+    "16486953350b356c4c",
+    "image_with_text_g4JzgT",
+    "1646568190ebe95501",
+    "1646637093bb49a871",
+    "1646637099a412c2c6",
+    "164525909116de3f3a",
+    "text_first_image_second_LaYYnY",
+    "164525917660f146d3",
+    "164870257203f4b4be"
+  ]
+}

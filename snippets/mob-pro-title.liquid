@@ -1,0 +1,35 @@
+  <div class="prod__title flex justify-between items-start pt-0.5 relative{% if section.settings.show_atwl and section.settings.layout != 'layout-7' %} pr-12{% endif %}">
+              <h1 class="text-2xl md:text-3xl md:leading-[42px] pr-2">{{ product.title }}  
+              
+                   {% for tag in product.tags %}
+            {% if tag contains 'oz' %}
+                <span class="title_divider">|</span>	{{ tag }}
+            {% endif %}
+                      {% if tag contains 'ct.' %}
+                <span class="title_divider">|</span>	{{ tag }}
+            {% endif %}
+                    
+            {% endfor %} 
+                
+              </h1>
+            
+            </div>
+               <!-- Stamped - Begin Star Rating Badge -->
+<span 
+class="stamped-product-reviews-badge stamped-main-badge" 
+data-id="{{ product.id }}" 
+data-product-sku="{{ product.handle }}" 
+data-product-title="{{product.title}}" 
+data-product-type="{{product.type}}">
+</span>
+<!-- Stamped - End Star Rating Badge -->
+   
+
+
+
+           
+                  {% if product.metafields.my_fields.tagline_under_product_title != blank %}
+              <div class="prod__description mobtagline leading-6">
+                {{ product.metafields.my_fields.tagline_under_product_title }}
+                  </div>
+            {% endif %}

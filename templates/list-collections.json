@@ -1,0 +1,153 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-list-template",
+      "disabled": true,
+      "settings": {
+        "container": "container-fluid",
+        "display_type": "all",
+        "title": "All collection",
+        "description": ""
+      }
+    },
+    "collection_list_3miCfQ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_block_H73L9L": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "best-sellers",
+            "title": "BEST SELLERS",
+            "item_image": "shopify:\/\/shop_images\/moisturizer_609732c6-fac7-4ee8-942a-5fffefa37738.webp"
+          }
+        },
+        "collection_block_PfKAkd": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "duos-1",
+            "title": "DUOS, TRIOS & SETS",
+            "item_image": "shopify:\/\/shop_images\/duos_hero.jpg"
+          }
+        },
+        "collection_block_wB6hDW": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "moisturizers-oils",
+            "title": "MOISTURIZERS & OILS",
+            "item_image": "shopify:\/\/shop_images\/moisturizer.webp"
+          }
+        },
+        "collection_block_yNCkFj": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "serums",
+            "title": "SERUMS",
+            "item_image": "shopify:\/\/shop_images\/serums_collection_hero.webp"
+          }
+        },
+        "collection_block_xD9KpF": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "eye",
+            "title": "EYE",
+            "item_image": "shopify:\/\/shop_images\/eye_gel_collection.png"
+          }
+        },
+        "collection_block_QDhVN4": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "spf",
+            "title": "SPF",
+            "item_image": "shopify:\/\/shop_images\/collection.png"
+          }
+        },
+        "collection_block_6NYTXt": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "cleansers-toners",
+            "title": "CLEANSERS & TONERS",
+            "item_image": "shopify:\/\/shop_images\/cleansers_toners_hero.webp"
+          }
+        },
+        "collection_block_mUgJHj": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "exfoliators-masks",
+            "title": "EXFOLIATORS & MASKS",
+            "item_image": "shopify:\/\/shop_images\/exfoliators_masks_hero.webp"
+          }
+        },
+        "collection_block_JVi7ym": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "body",
+            "title": "BODY",
+            "item_image": "shopify:\/\/shop_images\/collection_1.png"
+          }
+        },
+        "collection_block_Jbpwkf": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "cosmetics-1",
+            "title": "COSMETICS",
+            "item_image": "shopify:\/\/shop_images\/cosmetics.webp"
+          }
+        },
+        "collection_block_A683i7": {
+          "type": "collection_block",
+          "settings": {
+            "collection": "accessories-tools",
+            "title": "ACCESSORIES & TOOLS",
+            "item_image": "shopify:\/\/shop_images\/accessories_and_tools.webp"
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_H73L9L",
+        "collection_block_PfKAkd",
+        "collection_block_wB6hDW",
+        "collection_block_yNCkFj",
+        "collection_block_xD9KpF",
+        "collection_block_QDhVN4",
+        "collection_block_6NYTXt",
+        "collection_block_mUgJHj",
+        "collection_block_JVi7ym",
+        "collection_block_Jbpwkf",
+        "collection_block_A683i7"
+      ],
+      "settings": {
+        "heading": "Shop by Collection",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "layout": "grid",
+        "expanded": true,
+        "card_style": "standard",
+        "text_alignment": "center",
+        "hover_effect": "scaling-down",
+        "show_product_count": false,
+        "count_inline_title": false,
+        "image_rounded": false,
+        "items_per_row": 2,
+        "item_gap": 30,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "use_scroll_mobile": false,
+        "mobile_gap": 10,
+        "hidden_slide_control_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_list_3miCfQ"
+  ]
+}

@@ -1,0 +1,138 @@
+.h6-p {
+font-size: 21px !important;
+font-family: 'SF-HEADING-FONT' !important;
+font-weight: 400 !important;
+line-height: 29px !important;
+color: black !important;
+font-style: normal !important;
+}
+.text-color-subtext.rte.prose p{
+font-size: 21px !important;
+font-family: 'SF-HEADING-FONT' !important;
+font-weight: 400 !important;
+line-height: 29px !important;
+color: black !important;
+font-style: normal !important;
+}
+span.title_divider {
+    
+    color: #949494 ! IMPORTANT;
+}
+button.add-to-cart.sf__btn.flex-grow.shrink.not-change.relative.sf__btn-primary {
+    background-color: #727B28;
+}
+m-hero#sf-hero-template--22002555158805__16452857926e0a4b01 {
+    background-color: black;
+}
+
+li.current {
+    background-color: #757A29 !important;
+}
+span.sf__blog-cardTags {
+    color: #757A29;
+}
+button.sf__btn.sf__btn-primary {
+    background-color: #727B28;
+}
+h2.block.text-base .h3-h2{
+    font-family: "Century Gothic", sans-sarif;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    font-size: 19px;
+    line-height: 29px;
+}
+a.sf__btn.sf__btn-primary {
+    background-color: #727B28 !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+
+  .visuallyhidden.focusable:active,
+  .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+  }
+
+  .skip-link {
+    background-color: #fff;
+    padding: 1em;
+    z-index: 10000;
+  }
+  h1.col-h1{
+    font-family: 'SF-Heading-font';
+    font-weight: 400;
+    color: black;
+    font-size: 42px;
+    line-height: normal;
+  }
+
+  span.sf-cart-count.font-medium {
+    background-color: #D93A3A;
+}
+
+h1.zp.ts-h1.tsl-1 {
+    color: #8E9A32 !important;
+}
+faqs-h1 {
+    font-family: 'SF-Heading-font';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    size: 42px;
+    line-height: normal;
+}
+h1.faqs-h1 {
+    font-family: 'SF-Heading-font';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 42px;
+    line-height: normal;
+}
+h2.faqs-h2 {
+    font-family: 'SF-Heading-font';
+    font-weight: 400;
+    color: black;
+    font-size: 31px;
+    line-height: normal;
+}
+.retails-h1 {
+    font-family: 'SF-Heading-font';
+    font-weight: 400;
+    color: black;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+
+ /* #back-to-top {
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    background-color: #0009;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 10%;
+    display: none;
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+} */

@@ -1,0 +1,49 @@
+<div class="simple_banner">
+<div class="mobile_hidden">
+
+  {% if section.settings.image %}
+<img src="{{ section.settings.image | img_url:'master' }}" alt="{{ section.settings.image.alt }}">
+  {% endif %}
+  
+</div>
+
+<div class="desk_hidden">
+
+  {% if section.settings.mobileimage %}
+<img src="{{ section.settings.mobileimage | img_url:'original' }}" alt="{{ section.settings.mobileimage.alt }}">
+  {% endif %}
+  
+</div>
+
+</div>
+
+{% schema %}
+  {
+    "name": "Simple Image Banner",
+    "settings": 
+[
+  {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Image"
+  },
+ {
+    "type": "image_picker",
+    "id": "mobileimage",
+    "label": "Mobile Image"
+  }
+],
+ "presets": [
+        {
+            "name": "Simple Image Banners",
+            "category": "Image"
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

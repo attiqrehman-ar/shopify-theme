@@ -1,0 +1,429 @@
+{
+  "current": {
+    "favicon": "shopify:\/\/shop_images\/iyf-favicon2020-32.png",
+    "use_ajax_atc": true,
+    "show_scroll_top_button": false,
+    "container_width": 1200,
+    "container_fluid_width": 1360,
+    "container_fluid_offset": 75,
+    "color_primary": "#000000",
+    "color_field_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_heading_text": "#000000",
+    "color_sub_text": "#000000",
+    "color_btn_bg": "#b5c347",
+    "color_btn_bg_hover": "#000000",
+    "prod_sale_price_color": "#666666",
+    "prod_type_color": "#666666",
+    "color_annoucement_bg": "#282828",
+    "color_topbar_bg": "#ffffff",
+    "color_topbar_text": "#000000",
+    "color_header_bg": "#ffffff",
+    "color_header_link": "#000000",
+    "color_header_transparent": "#000000",
+    "bg_cart_wishlist_count": "#da3f3f",
+    "color_menu_bar_bg": "#ffffff",
+    "color_menu_bar_text": "#000000",
+    "color_footer_bg": "#ffffff",
+    "color_footer_text": "#000000",
+    "color_footer_subtext": "#000000",
+    "color_footer_link": "#000000",
+    "color_footer_link_hover": "#707070",
+    "color_footer_bg_mb": "#ffffff",
+    "color_footer_bottom_bg": "#000000",
+    "color_footer_bottom_text": "#ffffff",
+    "color_footer_bottom_bg_mb": "#000000",
+    "color_border": "#ffffff",
+    "img_overlay_opacity": 0,
+    "tooltip_background_color": "#000000",
+    "type_base_font": "century_gothic_n4",
+    "use_custom_font_body": false,
+    "custom_body_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Regular.ttf?v=1618297125@400\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-Medium.ttf?v=1618297125@500\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0561\/2742\/2636\/files\/Jost-SemiBold.ttf?v=1618297125@600",
+    "custom_body_weight": "500",
+    "type_base_size": 14,
+    "type_base_line_height": 24,
+    "type_header_font": "open_sans_n4",
+    "use_custom_font_heading": true,
+    "custom_heading_font": "https:\/\/cdn.shopify.com\/s\/files\/1\/0021\/5315\/2559\/files\/ATBSerif-Rg.ttf?v=1645263891",
+    "custom_heading_weight": "400",
+    "type_header_base_size": 40,
+    "btn_uppercase_text": true,
+    "btn_letter_spacing": 2,
+    "btn_weight": "500",
+    "pcard_layout": "4",
+    "pcard_alignment": "center",
+    "pcard_image_ratio": "original",
+    "show_swatch_option": false,
+    "show_cart_button": true,
+    "show_quickview_button": false,
+    "show_wishlist_button": false,
+    "show_compare_button": false,
+    "show_countdown": true,
+    "select_option_button_action": "link",
+    "on_sale_badge": "hide",
+    "show_review_badge": true,
+    "show_badge_sale": false,
+    "show_vendor": false,
+    "uppercase_prd_name": false,
+    "pcard_show_lowest_prices": true,
+    "variant_option_design1": "button",
+    "variant_option_design2": "color",
+    "variant_option_design3": "color",
+    "product_colors": "red: #FF6961,\nyellow: #FDDA76,\nblack: #000000,\nblack band: #000000,\nblue: #8DB4D2,\ngreen: #C1E1C1,\npurple: #B19CD9,\nsilver: #EEEEEF,\nwhite: #FFFFFF,\nbrown: #836953,\nlight brown: #B5651D,\ndark turquoise: #23cddc,\norange: #FFB347,\ntan: #E9D1BF,\nviolet: #B490B0,\npink: #FFD1DC,\ngrey: #E0E0E0,\nsky: #96BDC6,\npale leaf: #CCD4BF,\nlight blue: #b1c5d4,\ndark grey: #aca69f,\nbeige: #EBE6DB,\nbeige band: #EED9C4,\ndark blue: #063e66,\ncream: #FFFFCC,\nlight pink: #FBCFCD,\nmint: #bedce3,\ndark gray: #3A3B3C,\nrosy brown: #c4a287,\nlight grey:#D3D3D3,\ncopper: #B87333,\nrose gold: #ECC5C0,\nnight blue: #151B54,\ncoral: #FF7F50,\nlight purple: #C6AEC7",
+    "filter_color1": "Gingham",
+    "filter_color2": "flannel",
+    "article_image_aspect_ratio": "4\/3",
+    "article_align_content": "text-center",
+    "article_show_date": true,
+    "article_show_excerpt": true,
+    "article_show_button": false,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "contact_phone_number": "",
+    "contact_email": "",
+    "social_twitter_link": "https:\/\/twitter.com\/inyourfaceskncr",
+    "social_twitter_label": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/inyourfaceskincarellc",
+    "social_facebook_label": "",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/inyourfaceskincare\/",
+    "social_pinterest_label": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/inyourfaceskincare\/",
+    "social_instagram_label": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "https:\/\/youtube.com\/@INYOURFACESKINCARE",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@inyourfaceskincare",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/in-your-face-skincare\/",
+    "social_linkedin_label": "https:\/\/www.linkedin.com\/company\/in-your-face-skincare\/",
+    "enable_cart_drawer": false,
+    "cart_notes_enable": true,
+    "discount_code_enable": false,
+    "cart_estimate_shipping": true,
+    "cart_drawer_trust_badge": "shopify:\/\/shop_images\/badges_shop.png",
+    "enable_predictive_search": false,
+    "search_by_tag": true,
+    "search_by_body": true,
+    "popular_search_queries": "Face Cream,Eye Gel,Natural Skincare",
+    "wishlist_page": "wishlist",
+    "show_cookie_consent": false,
+    "cookie_consent_placement": "bottom-left",
+    "cookie_consent_theme": "white",
+    "custom_css": ".sf-topbar {\n  border-color: #eee;\n}\n[id$=\"16225125199f82d8fe\"] .section-my {\n  padding-top: 45px;\n  padding-bottom: 45px;\n  margin-bottom: 0;\n  margin-top: 0;\n}\n[id$=\"16225125199f82d8fe\"] {\n  border-top: 1px solid #eee;\n}\n.sf__font-normal {\n  font-weight: 400;\n}\n[id$=\"16225316461d1cff80\"]\n  .collection-card__info\n  h3\n  a {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 34px;\n  margin-bottom: 4px;\n}\n[id$=\"16225316461d1cff80\"]\n  .collection-card__info\n  p {\n  color: #666;\n}\n[id$=\"16225125199f82d8fe\"] .sf-icon-box__text h3 {\n  line-height: 26px;\n  font-size: 20px;\n  font-weight: 500;\n}\n@media (min-width: 1536px) {\n  [id$=\"1621243260e1af0c20\"] .slide__block-title {\n    font-size: 100px;\n    line-height: 95px;\n  }\n}\n@media (max-width: 576px) {\n  [id$=\"1621243260e1af0c20\"] a.sf__mobile-button,\n  [id$=\"162251092958fcda7c\"] .sf__btn-primary,\n  [id$=\"162251092958fcda7c\"] .sf__btn-secondary {\n    width: 100%;\n  }\n  [id$=\"16225316461d1cff80\"] .section__heading {\n    text-align: center;\n  }\n  [id$=\"16225316461d1cff80\"]\n    .collection-card__info\n    h3\n    a {\n    font-weight: 500;\n  }\n  [id$=\"16225316461d1cff80\"]\n    .collection-card__info\n    p {\n    font-size: 14px;\n    line-height: 20px;\n  }\n  [id$=\"16225125199f82d8fe\"] .sf-icon-box__text h3 {\n    font-size: 18px;\n    margin-bottom: 2px;\n  }\n}",
+    "review_app": "other",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
+    "checkout_accent_color": "#93a03a",
+    "checkout_button_color": "#b5c347",
+    "show_variant_swatch_image": true,
+    "bg_cart_count": "#da3f3f",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "df51d2e8-f5d3-4805-927b-5d207c10dbe7": {
+            "type": "banner",
+            "settings": {
+              "heading": "SHOP",
+              "container": "w-full",
+              "banner_style": "outside",
+              "banner_image": "shopify:\/\/shop_images\/essentils.jpg",
+              "banner_link": "shopify:\/\/collections\/essentials",
+              "banner_title": "SHOP ESSENTIALS",
+              "banner_desc": "",
+              "banner_button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "df51d2e8-f5d3-4805-927b-5d207c10dbe7"
+        ],
+        "settings": {
+          "header_design": "logo-center__2l",
+          "container": "container-fluid",
+          "header_sticky": false,
+          "transparent_on_top": false,
+          "logo_text": "",
+          "logo": "shopify:\/\/shop_images\/logo_fdff1df8-aabc-4710-8bc9-e0d7fe55b8ff.png",
+          "logo_mobile": "shopify:\/\/shop_images\/logo_fdff1df8-aabc-4710-8bc9-e0d7fe55b8ff.png",
+          "logo_svg": "",
+          "logo_mobile_svg": "",
+          "logo_transparent_svg": "",
+          "logo_max_width": 450,
+          "sticky_logo_max_width": 450,
+          "mobile_logo_max_width": 450,
+          "main_menu": "new-main-menu",
+          "secondary_menu": "new-main-menu",
+          "mobile_menu": "new-main-menu",
+          "uppercase_parent_level": true,
+          "search": "show_icon",
+          "show_account_icon": true,
+          "show_cart_icon": true,
+          "show_wishlist_icon": false,
+          "show_compare_icon": false,
+          "show_currency_switcher": false,
+          "show_language_switcher": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "9af6c1b9-f970-4eb6-adcb-2a918a930cdf": {
+            "type": "custom_html",
+            "settings": {
+              "title": "GET ALL THE GOODS!",
+              "html": "<p>Join our e-mail list to find out about our product launches, skincare routines and whatever else is on our minds, and <b>get 15% off<\/b> your first order!<\/p>\n<div class=\"klaviyo-form-NfLRT7\"><\/div>\n<\/p>\n<br>\n<p> \nP.S. - Sign up for texts and get access to exclusive deals & <b>free U.S. shipping<\/b> on your first order! <div class=\"klaviyo-form-XXC9aS\"><\/div>",
+              "width": "40%",
+              "order_first": false,
+              "open_default": true
+            }
+          },
+          "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
+            "type": "menu",
+            "settings": {
+              "menu": "customer-service-1",
+              "title": "CUSTOMER SERVICE",
+              "width": "20%",
+              "order_first": false,
+              "open_default": true
+            }
+          },
+          "7ebc2f78-975b-4a81-b874-103c3355a866": {
+            "type": "menu",
+            "settings": {
+              "menu": "customer-service",
+              "title": "INFORMATION",
+              "width": "20%",
+              "order_first": false,
+              "open_default": true
+            }
+          },
+          "e37198e0-2a3c-4158-901e-dab391736ca6": {
+            "type": "our_store",
+            "settings": {
+              "title": "SOCIAL",
+              "description": "<p><\/p>",
+              "show_email": false,
+              "show_phone": false,
+              "show_socials_link": true,
+              "width": "20%",
+              "order_first": false,
+              "open_default": true
+            }
+          }
+        },
+        "block_order": [
+          "9af6c1b9-f970-4eb6-adcb-2a918a930cdf",
+          "49e72833-c68f-4a7b-ab64-3ef0cae99bcb",
+          "7ebc2f78-975b-4a81-b874-103c3355a866",
+          "e37198e0-2a3c-4158-901e-dab391736ca6"
+        ],
+        "settings": {
+          "design": "footer-2",
+          "container": "container-fluid",
+          "bordered": false,
+          "copyright": "IN YOUR FACE SKINCARE. All rights reserved.",
+          "show_currency_selector": false,
+          "show_language_selector": false,
+          "show_social_links": false,
+          "show_payment_icons": false,
+          "payment_icons_width": 300
+        }
+      },
+      "annoucement": {
+        "type": "annoucement",
+        "settings": {
+          "show_announcement": true,
+          "homepage_only": false,
+          "show_close": false,
+          "message": "GET A FREE GIFT & USE CODE <b> WELCOME15 <\/b>   FOR 15% OFF YOUR FIRST ORDER!",
+          "message_link": "",
+          "show_divider": false
+        }
+      },
+      "mobile-sticky-bar": {
+        "type": "mobile-sticky-bar",
+        "settings": {
+          "show_mobile_sticky": false,
+          "show_home_icon": true,
+          "show_collection_icon": true,
+          "show_cart_icon": true,
+          "show_search_icon": true,
+          "show_account_icon": false,
+          "show_wishlist_icon": false
+        }
+      },
+      "pre-footer": {
+        "type": "pre-footer",
+        "blocks": {
+          "html_qnUNwG": {
+            "type": "html",
+            "settings": {
+              "code": "<style>\n\/* Base styles *\/\n.free-from-title {\n    text-align: center;\n    font-size: 2em;\n    margin-bottom: 20px;\nfont-weight:bold;\n}\n\n.free-from-list {\n    display: flex;\n    flex-wrap: wrap; \/* Allows the items to wrap onto a new line when needed *\/\n    justify-content: center; \/* Centers the list items *\/\n    margin-left: 60px;\n    margin-top: 10px;\n    gap: 20px;\n    font-size: 20px;\n    line-height: 1.75; \/* Corrected from 'inline-height' *\/\n    font-family: \"Open Sans\", sans-serif;\n}\n\n\/* Media Query for large desktops *\/\n@media (min-width: 1200px) {\n    .free-from-list {\n        font-size: 22px;\n        margin-left: 0;\n    }\n}\n\n\/* Media Query for tablets and small desktops *\/\n@media (max-width: 1024px) {\n    .free-from-list {\n        font-size: 18px;\n        margin-left: 30px;\n    }\n\n    .free-from-title {\n        font-size: 1.8em;\n    }\n}\n\n\/* Media Query for tablets in portrait mode *\/\n@media (max-width: 768px) {\n    .free-from-list {\n        flex-direction: column; \/* Stack the list items vertically *\/\n        margin-left: 0;\n        text-align: center; \/* Center-align the list *\/\n        font-size: 16px;\n    }\n\n    .free-from-title {\n        font-size: 1.6em;\n    }\n}\n\n\/* Media Query for mobile devices *\/\n@media (max-width: 480px) {\n    .free-from-list {\n        flex-direction: column;\n        gap: 10px; \/* Reduce gap for mobile screens *\/\n        font-size: 14px;\n    }\n\n    .free-from-title {\n        font-size: 1.4em;\n    }\n}\n<\/style>\n\n<h2 class=\"free-from-title\">100% FREE FROM<\/h2>\n<ul class=\"free-from-list\">\n    <li>PHTHALATES<\/li>\n    <li>PARABENS<\/li>\n    <li>SULFATES<\/li>\n    <li>GMOS<\/li>\n    <li>ALCOHOLS<\/li>\n    <li>DYES<\/li>\n    <li>ARTIFICIAL FRAGRANCE<\/li>\n    <li>TOXINS<\/li>\n    <li>ANIMAL TESTING<\/li>\n<\/ul>",
+              "width": "100%",
+              "block_custom_class": ""
+            }
+          },
+          "text_9A9Qba": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "100% FREE FROM",
+              "subheading": "",
+              "text": "<p>PHTHALATES      PARABENS        SULFATES        GMOS        ALCOHOLS        DYES       ARTIFICIAL FRAGRANCE        TOXINS        ANIMAL TESTING<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center",
+              "text_size": "medium",
+              "text_color": "black",
+              "button_label": "",
+              "button_link": "",
+              "button_style": "sf__btn-primary",
+              "button_size": "",
+              "block_custom_class": ""
+            }
+          }
+        },
+        "block_order": [
+          "html_qnUNwG",
+          "text_9A9Qba"
+        ],
+        "settings": {
+          "hideondesk": false,
+          "heading": "",
+          "subheading": "",
+          "description": "",
+          "header_alignment": "center",
+          "container": "container-fluid",
+          "background_color": "#f6f6f6",
+          "gap": 0,
+          "use_scroll_mobile": false,
+          "gap_mobile": 0,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "custom_class": ""
+        }
+      },
+      "bottom-banner": {
+        "type": "bottom-banner",
+        "settings": {
+          "show_announcement": false,
+          "homepage_only": false,
+          "message": "",
+          "message_link": "shopify:\/\/pages\/labor-day-2024",
+          "image": "shopify:\/\/shop_images\/Labor_Day_sale_banner_web_1.png",
+          "mobimage": "shopify:\/\/shop_images\/Labor_Day_sale_banner_MOBILE.png",
+          "color_annoucement_bg": "rgba(0,0,0,0)",
+          "color_annoucement_text": "#000000"
+        }
+      },
+      "wsg-custom-fields": {
+        "type": "wsg-custom-fields",
+        "blocks": {
+          "33d01ef9-302a-41da-9e82-aa20956c0c13": {
+            "type": "text_block",
+            "settings": {
+              "text_input": "Website",
+              "isRequired": false
+            }
+          },
+          "ff8cd25a-11e1-4257-baa4-fdf11874553a": {
+            "type": "phone_block",
+            "settings": {
+              "phone_text_input": "Phone Number",
+              "isRequired": false
+            }
+          },
+          "ba10929b-9fff-4f31-8999-ce74f7475e6f": {
+            "type": "text_block",
+            "settings": {
+              "text_input": "Tax ID\/ABN\/VAT Number",
+              "isRequired": false
+            }
+          },
+          "7e3c653e-b2ef-4189-a5fd-6641fd6563d3": {
+            "type": "textarea_block",
+            "settings": {
+              "textarea_label": "Note",
+              "textarea_placeholder": "Tell us a little about yourself so that we can verify your business identity",
+              "isRequired": false
+            }
+          }
+        },
+        "block_order": [
+          "33d01ef9-302a-41da-9e82-aa20956c0c13",
+          "ff8cd25a-11e1-4257-baa4-fdf11874553a",
+          "ba10929b-9fff-4f31-8999-ce74f7475e6f",
+          "7e3c653e-b2ef-4189-a5fd-6641fd6563d3"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "15573056287721514228": {
+        "type": "shopify:\/\/apps\/json-ld-for-seo\/blocks\/app-embed\/3fcb4f45-bdde-43fd-84ae-8006cdcd1028",
+        "disabled": false,
+        "settings": {}
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "6868439170666289573": {
+        "type": "shopify:\/\/apps\/foxkit-upsells-cross-sells\/blocks\/foxkit-theme-helper\/13f41957-6b79-47c1-99a2-e52431f06fff",
+        "disabled": false,
+        "settings": {}
+      },
+      "10274677211107884116": {
+        "type": "shopify:\/\/apps\/shipping-rates-calculator-plus\/blocks\/app-embed-block\/de9da91b-8d51-4359-81df-b8b0288464c7",
+        "disabled": false,
+        "settings": {}
+      },
+      "17151115064775110295": {
+        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "disabled": false,
+        "settings": {
+          "color_brand": "#467c99",
+          "contrast_color": "#ffffff",
+          "color_brand_secondary": "#467c99",
+          "corners": "8px",
+          "app_background": "#f9f8f4",
+          "app_container": 1200,
+          "app_vertical_padding": 32,
+          "images_aspect_ratio": "1",
+          "cards_background": "#ffffff",
+          "cards_border_color": "rgba(0,0,0,0)"
+        }
+      },
+      "3667842014806057753": {
+        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": false,
+        "settings": {}
+      },
+      "16216491870256628967": {
+        "type": "shopify:\/\/apps\/bss-product-labels-badges\/blocks\/bss-pl-config-data\/91bfe765-b604-49a1-805e-3599fa600b24",
+        "disabled": false,
+        "settings": {}
+      },
+      "15885745614559378752": {
+        "type": "shopify:\/\/apps\/accessibly\/blocks\/app-embed\/4b59303e-1141-4c8a-945f-bf4adb516864",
+        "disabled": true,
+        "settings": {
+          "themeColor": "#b1abdb",
+          "iconColor": "#b1abdb",
+          "showLogo": true,
+          "topBottomPosition": 10,
+          "rightLeftPosition": 10,
+          "iconSize": "small",
+          "iconCustomSize": 48,
+          "position": "middle-right"
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".pdp-review-quote {font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-style: italic;}"
+    ]
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "c46b66d2-c15c-494c-afc0-a59b7e65f55b": {
+      "type": "image-with-text-2",
+      "settings": {
+        "container": "w-full",
+        "hero_size": "adapt",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/lupita_terri_denice-1366w.jpg",
+        "bg_position": "center",
+        "image_link": "",
+        "parallax": false,
+        "content_in_container": false,
+        "content_position": "center middle",
+        "text_alignment": "center",
+        "text_size": "medium",
+        "text_color": "white",
+        "title": "5 Most Common Skincare Mistakes Women Make",
+        "subtitle": "",
+        "text": "<p><strong>by Denice Duff, Founder of IN YOUR FACE SKINCARE<\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "use_content_above": false,
+        "custom_class": ""
+      }
+    },
+    "9e634037-3427-4f1d-bc8c-811ef93ca464": {
+      "type": "custom-content",
+      "blocks": {
+        "template--17674693312789__9e634037-3427-4f1d-bc8c-811ef93ca464-16745494175d88a810-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "We often stick with our skincare routine because that’s the way we’ve always done it, but here are the 5 most common mistakes you may not realize could be sabotaging your skin.",
+            "text": "<p><strong><br\/>1.OVER EXFOLIATING<\/strong><\/p><p>Exfoliating is great for renewing skin by removing dead skin cells and increasing your rate of cell turnover. But there CAN be too much of a good thing! Daily face scrubs will not eliminate fine lines, wrinkles and acne and may actually be robbing your skin of its oils and moisture leaving your face feeling rough, dehydrated, and flaky.<br\/><\/p><p>The Fix: Our DEEP ENZYME CLEANSE is our non-abrasive, exfoliating glycolic acid and fruit enzyme wash that can be used 3-4 times a week because it is so gentle. It naturally helps produce radiant, healthy-looking skin melting away visible signs of aging into a youthful glow.<br\/><\/p><p><strong>2.OVERWASHING<\/strong><\/p><p>It may seem like the simplest part of your routine to wash your face, but too much washing can be drying and can strip your skin’s microbiome (healthy bacteria layer).<\/p><p>The Fix: If you’ve thoroughly cleansed your face in the evening and removed all traces of the day from your pores (including dirt, makeup, sebum, or any other impurities) there is really no need to wash your face again in the morning. A water splash or face mist is all you need before starting your skincare routine.<br\/><\/p><p><strong>3.SLEEPING WITH MAKEUP ON<\/strong><\/p><p>After a long day, you may just want to crash down on the bed and get some sleep. And that’s totally understandable - just be sure to remove your makeup first! Makeup can trap dirt and environmental toxins which can clog pores and add stress to the skin which can result in premature aging and collagen degradation, not to mention creating dull, dry skin and those “mystery” acne flareups!<br\/><\/p><p>The Fix: You will need an oil-based cleanser for hard-to-remove makeup and SPF.  Our MANDARIN MELT CLEANSING BALM, with restorative olive and coconut oils is a nourishing and emollient cleansing balm that melts away dirt from clogged pores, stubborn makeup, and SPF effortlessly without irritating skin or delicate eye area, leaving your skin ultra soft and radiant.<br\/><\/p><p><strong>4.APPLYING PRODUCTS IN THE WRONG ORDER<\/strong><\/p><p>Layering your products in the right order helps you get maximal absorption out of the active ingredients and incorrectly layering products won’t be as effective but can lead to irritation. For example, if you apply an aloe-based serum on top of a rich cream, you will not receive the full benefits of that serum because it can’t penetrate the skin because of the barrier of the rich cream.<\/p><p><\/p><p>The Fix: A good rule of thumb is to apply thinnest to thickest. Which means: you want to cleanse, then use a toner\/face mist, then apply serum, then apply eye gel, then apply oil or cream. During the day, your final step would be SPF. Proper application will save you money and boost results!<\/p><p><\/p><p><strong>5.SKIPPING YOUR MOISTURIZER<\/strong><\/p><p>As we grow older, our skin’s natural oil glands begin to produce less. And regardless of the season, because of climate control system (A\/C or heating), whether warm or cool, there is the potential to dry out your skin. When this happens, collagen and elastin fibers can grow stiff and break down, causing fine lines and wrinkles, dullness and even breakouts. Moisturizers serve as a shield from irritants and environmental pollutants improving tone, texture and appearance.<\/p><p><\/p><p>The Fix: Most of us don’t think about or have time to re-apply moisturizer during the day, so you want a rich, daily moisturizer that works well under makeup and gives you all-day hydration. Moisturizing every day can reduce the chance of extreme dryness or oiliness. THE CREAM is our 100% natural, rich, velvety moisturizer that is packed with botanical antioxidants, organic phytonutrients, and heavenly botanical essences.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": "mistake-customtext"
+          }
+        }
+      },
+      "block_order": [
+        "template--17674693312789__9e634037-3427-4f1d-bc8c-811ef93ca464-16745494175d88a810-0"
+      ],
+      "settings": {
+        "heading": "HOW TO GET HEALTHY, GLOWING SKIN!",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    },
+    "b10e0e60-3b4e-4090-b01a-582f169e8235": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "container": "container",
+        "background_color": "#ffffff",
+        "item_gap": 20,
+        "item_gap_mobile": 10,
+        "image": "shopify:\/\/shop_images\/iyfsc_silverlake_denice-crop600w.jpg",
+        "link": "",
+        "layout": "left",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "Who hasn't been burned buying products that promised the moon but really did nothing to help your skin?",
+        "sub_title": "",
+        "text": "<p>We've all been there. <strong>You should be able to buy products with high-quality active ingredients <\/strong>that help feed your skin, not just lay on top of it. That's why, actress, turned Skincare Founder, Denice Duff took everything she learned from her 4 generations of Italian women and combined it with her years in front of Hollywood make-up artists and dermatologists to create a luxe  line of results driven all natural skincare.<br\/><br\/><strong>It was our mission to get back to basics<\/strong> and provide all-natural products that contained only the finest natural ingredients and botanical oils, were not tested on animals, and were not in any way toxic to humans or the earth. After years of testing, IN YOUR FACE SKINCARE was born with our flagship product: THE CREAM.<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "custom_class": "img_with_text"
+      }
+    },
+    "c3a3b571-2f0b-4ee1-8b25-e6bd830577c5": {
+      "type": "custom-content",
+      "blocks": {
+        "template--17674693312789__c3a3b571-2f0b-4ee1-8b25-e6bd830577c5-16745494175d88a810-0": {
+          "type": "text",
+          "settings": {
+            "title": "IN YOUR FACE CREAM",
+            "subheading": "",
+            "text": "<p>THE CREAM is our flagship product, the one that started it all. It is our rich, velvety moisturizer packed with botanical antioxidants, organic phytonutrients, and heavenly botanical essences to enchant all your senses. With THE CREAM, a dewy and radiant-looking complexion experience awaits.<\/p>",
+            "width": "100%",
+            "alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17674693312789__c3a3b571-2f0b-4ee1-8b25-e6bd830577c5-16745494175d88a810-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": "custom-mistake"
+      }
+    },
+    "37f4328c-12f2-4857-ab26-d33307ee5f89": {
+      "type": "new-featured-product",
+      "blocks": {
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-0": {
+          "type": "title",
+          "settings": {}
+        },
+        "9c911a29-9fac-4112-90d4-2fe7637974bc": {
+          "type": "custom_text",
+          "settings": {
+            "content": "<p><strong>Get Healthy and Glowing Skin<\/strong><\/p><p>✓ 100% natural<\/p><p>✓ Created with organically certified herbs<\/p><p>✓ Enriched with phytonutrients<\/p><p>✓ Infused with antioxidants<\/p><p>✓ Powered with botanical plant-infused oils<\/p><p>✓ Supports fair trade & independent farmers<\/p><p><strong>Key Ingredients: <\/strong>Jojoba Oil, Ylang-Ylang, Geranium, CoQ10, Green Tea, Alpha Lipoic Acid, DMAE<\/p>"
+          }
+        },
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-2": {
+          "type": "variant_picker",
+          "settings": {}
+        },
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        },
+        "d526774c-9c72-4c83-8483-0dba1f65856b": {
+          "type": "text",
+          "settings": {
+            "text": "100% Money Back Guarantee",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-0",
+        "9c911a29-9fac-4112-90d4-2fe7637974bc",
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-1",
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-2",
+        "template--17674693312789__37f4328c-12f2-4857-ab26-d33307ee5f89-167455187440a60bbe-3",
+        "d526774c-9c72-4c83-8483-0dba1f65856b"
+      ],
+      "settings": {
+        "container": "container",
+        "background_color": "#ffffff",
+        "featured_product": "the-cream",
+        "column_gap": 20,
+        "column_gap_mobile": 10,
+        "image_placement": "left",
+        "custom_class": "mis-product"
+      }
+    },
+    "388105f9-0e3b-46ce-9a89-152129f0adc3": {
+      "type": "custom-content",
+      "blocks": {
+        "template--17674693312789__388105f9-0e3b-46ce-9a89-152129f0adc3-16745719169ad721d7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/inyourface-logo-tagline-horiz750.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "5036b335-fd84-4c2f-b97c-d6547e94524c": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "text": "<p>While we know we can't really stop Father Time,<br\/>we DO know that by using the right products, and with a<br\/>little time, we can slow down his appearance!<\/p>",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "large",
+            "text_color": "black",
+            "button_label": "CHECK OUT OUR PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17674693312789__388105f9-0e3b-46ce-9a89-152129f0adc3-16745719169ad721d7-1",
+        "5036b335-fd84-4c2f-b97c-d6547e94524c"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "Use the code: <span>IYFS515<\/span>  for 15% OFF your first order!<br>All US orders over $125 ship for FREE!",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    },
+    "ea8dfa5e-6f5a-461e-953f-ea7781148d67": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "IN YOUR FACE SKINCARE is the result of  five generations of family recipes and a lot of love.",
+        "subheading": "",
+        "container": "container-fluid",
+        "background_color": "rgba(0,0,0,0)",
+        "item_gap": 30,
+        "item_gap_mobile": 30,
+        "image": "shopify:\/\/shop_images\/img4_687x_5721156f-b69b-48fc-ba58-c0a36ef58f0e.webp",
+        "link": "",
+        "layout": "right",
+        "image_column_size": "6",
+        "hover_effect": false,
+        "title": "",
+        "sub_title": "",
+        "text": "<p>\"I was born in NY as the fourth generation of living Italian women who chose NY as a home, for it was Rich with Mediterranean cultural influences on every street. See the picture to the right holding my daughter - 5 generations!<\/p><p><\/p><p>\"They weren’t rich. They made most of their own clothes, grew their own vegetables and herbs. We never dined out, we ate home as a family, cooking and laughing together.<br\/><\/p><p>\"Some of those same ingredients we used in food we also used on our skin. My great-grandmother had dewy smooth skin into her 90s! She ate whole foods and used natural ingredients on her skin. “Healthy inside gives you healthy outside” she’d say.<br\/><\/p><p>\"There was always a little jar of olive oil in the medicine cabinet to be used as a makeup remover, facial moisturizer, and body lotion. She used lemon juice for my acne and for her dark spots.\"<br\/><\/p><p>                Denice Duff - Founder<\/p>",
+        "text_size": "medium",
+        "content_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "sf__btn-link",
+        "button_size": "",
+        "custom_class": ""
+      }
+    },
+    "a40067b8-c998-4db9-9dd3-32c8c3d5f033": {
+      "type": "new-testimonials",
+      "blocks": {
+        "5d3b02f0-1914-404a-b63f-b885c6a113ea": {
+          "type": "Testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bonnie-400-sq.jpg",
+            "text": "<p>\"As an on-camera talk show host it's critical to have the “edge” when it comes to face products and make up. Hands down, IN YOUR FACE CREAM is the BEST skin care product I have ever found!!! It's made my skin look years younger and dewy. Trust me, I've used a lot of products and I now swear by this one.\"\n<\/p><br>\n<p style=\"font-style:normal\"><span style=\"color: #3AAA35;\">Bonnie Bruderer <\/span>- <span style=\"color: #B2B2B2;\">Talk Show Host, Producer<\/span><\/p>"
+          }
+        },
+        "97c351cd-a827-465c-8348-4ec10efb9f9b": {
+          "type": "Testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lorenza-400-sq3.jpg",
+            "text": "<p>Besides being a professional musician I also have a \"no pesticides allowed\" honey farm and pollinator sanctuary. I am very particular about what products I use on my skin. I've been using La Mer for years but recently discovered InYourFaceCream and I must say, I am hooked. I am into my third jar of this amazing product and it has saved me hundreds of dollars. Due to my performance schedule and dedication to my honey bees my schedule is fast paced and demanding. This face cream has kept my skin glowing, firm, and hydrated beyond my wildest dreams! I absolutely love it!\"\n<\/p><br>\n<p style=\"font-style:normal\"><span style=\"color: #3AAA35;\">Elsie Deese<\/span>- <span style=\"color: #B2B2B2;\">Our Customer<\/span><\/p>"
+          }
+        },
+        "2fafe0c6-a5a6-4d02-b9fa-04364031d75f": {
+          "type": "Testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lydia-400_77424b06-1612-45e2-92bf-2c4e4630276c.jpg",
+            "text": "<p>\"I love love LOVE this face cream! Sheesh, amazing, how did you come up with it? It reminds me of whipped cream. What makes it smell so fricken good and when can I buy more?\n<\/p><br>\n<p style=\"font-style:normal\"><span style=\"color: #3AAA35;\">Lydia <\/span>- <span style=\"color: #B2B2B2;\">First Responder, Disaster Relief Volunteer<\/span><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5d3b02f0-1914-404a-b63f-b885c6a113ea",
+        "97c351cd-a827-465c-8348-4ec10efb9f9b",
+        "2fafe0c6-a5a6-4d02-b9fa-04364031d75f"
+      ],
+      "settings": {
+        "heading": "What our customers are saying about IN YOUR FACE SKINCARE..."
+      }
+    },
+    "fd4585ed-1e1b-4a98-8602-0e9fd861034a": {
+      "type": "new-featured-product",
+      "blocks": {
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-0": {
+          "type": "title",
+          "settings": {}
+        },
+        "8c5273ca-dce5-4d33-919d-e7b9f863d90d": {
+          "type": "custom_text",
+          "settings": {
+            "content": "<p><strong>Get Healthy and Glowing Skin<\/strong><\/p><p>✓ 100% natural<\/p><p>✓ Created with organically certified herbs<\/p><p>✓ Enriched with phytonutrients<\/p><p>✓ Infused with antioxidants<\/p><p>✓ Powered with botanical plant-infused oils<\/p><p>✓ Supports fair trade & independent farmers<\/p><p><strong>Key Ingredients: <\/strong>Jojoba Oil, Ylang-Ylang, Geranium, CoQ10, Green Tea, Alpha Lipoic Acid, DMAE<\/p>"
+          }
+        },
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-2": {
+          "type": "variant_picker",
+          "settings": {}
+        },
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_atc_button": true,
+            "show_dynamic_checkout": false
+          }
+        },
+        "1210b9a5-36cd-4646-833d-8a17f393f066": {
+          "type": "text",
+          "settings": {
+            "text": "100% Money Back Guarantee",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-0",
+        "8c5273ca-dce5-4d33-919d-e7b9f863d90d",
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-1",
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-2",
+        "template--17674693312789__fd4585ed-1e1b-4a98-8602-0e9fd861034a-167455187440a60bbe-3",
+        "1210b9a5-36cd-4646-833d-8a17f393f066"
+      ],
+      "settings": {
+        "container": "container",
+        "background_color": "#ffffff",
+        "featured_product": "the-cream",
+        "column_gap": 20,
+        "column_gap_mobile": 10,
+        "image_placement": "left",
+        "custom_class": "mis-product"
+      }
+    },
+    "db155d82-c793-4699-b934-cface1addb89": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "Use the code: <span>IYFS515<\/span>  for 15% OFF your first order!<br>All US orders over $125 ship for FREE!",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "rgba(0,0,0,0)",
+        "collection": "recomendation-for-mistakes",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 12,
+        "items_per_row": 4,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "button_type": "link",
+        "button_text": "",
+        "button_style": "sf__btn-primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 10,
+        "custom_class": ""
+      }
+    },
+    "88402279-fd09-4aaa-a28a-a414603701c0": {
+      "type": "custom-content",
+      "blocks": {
+        "template--17674693312789__88402279-fd09-4aaa-a28a-a414603701c0-16745719169ad721d7-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "subheading": "Please keep in mind that results may vary. While testimonials come from our customers, they do not guarantee specific results.",
+            "text": "",
+            "width": "50%",
+            "alignment": "center",
+            "align_text": "center",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17674693312789__88402279-fd09-4aaa-a28a-a414603701c0-16745719169ad721d7-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c46b66d2-c15c-494c-afc0-a59b7e65f55b",
+    "9e634037-3427-4f1d-bc8c-811ef93ca464",
+    "b10e0e60-3b4e-4090-b01a-582f169e8235",
+    "c3a3b571-2f0b-4ee1-8b25-e6bd830577c5",
+    "37f4328c-12f2-4857-ab26-d33307ee5f89",
+    "388105f9-0e3b-46ce-9a89-152129f0adc3",
+    "ea8dfa5e-6f5a-461e-953f-ea7781148d67",
+    "a40067b8-c998-4db9-9dd3-32c8c3d5f033",
+    "fd4585ed-1e1b-4a98-8602-0e9fd861034a",
+    "db155d82-c793-4699-b934-cface1addb89",
+    "88402279-fd09-4aaa-a28a-a414603701c0"
+  ]
+}

@@ -1,0 +1,168 @@
+<a class="visuallyhidden focusable skip-link" href="#template-{{ template | replace: '.', '-' | handle }}" data-check-for-order="true" id="skiptocontent">Skip to Content</a>
+<a class="visuallyhidden focusable skip-link" href="https://tusk.com/pages/accessibility-and-equitable-use-statement">Go to Accessibility Statement </a>
+
+{%- capture body_classes -%}
+template-{{ template.name | handle }} {{ template.name }}-{{ template.suffix }} {{ template.name | append: '-' | append: handle }} {% if cart.item_count == 0 %}cart-empty{% endif %}
+{%- endcapture -%}
+
+{% liquid
+  assign enable_rtl = settings.enable_rtl
+  assign language_support_rtl = settings.language_support_rtl
+  if enable_rtl and language_support_rtl != blank
+    assign shop_locale = localization.language.iso_code
+    assign language_support_rtl_list = language_support_rtl | split: ','
+    assign is_rtl = language_support_rtl_list | where: shop_locale
+    if is_rtl.size > 0
+      assign enable_rtl = true
+    else
+      assign enable_rtl = false
+    endif
+  endif
+%}
+<!doctype html>
+<html
+  class="no-js supports-no-cookies"
+  lang="{{ request.locale.iso_code }}"
+  data-template="{{ template.name }}"
+  {% if enable_rtl %}
+    dir="rtl"
+  {% endif %}
+>
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-MRLX68D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GT-MRLX68D');
+</script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-613551413"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-613551413');
+</script>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    
+    <meta name="theme-color" content="{{ settings.color_primary }}">
+
+    {%- liquid
+      render 'preload'
+      render 'SEO'
+      render 'social-meta-tags'
+      render 'font-face'
+    -%}
+
+    {% render 'critical-css' %}
+    {% render 'critical-scripts' %}
+    {% render 'custom-code-head' %}
+
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
+    {{ 'chunk.css' | asset_url | stylesheet_tag }}
+    {{ 'popupnsr.css' | asset_url | stylesheet_tag }}
+    {{ 'ingredient-nsr.css' | asset_url | stylesheet_tag }}
+    {{ 'accessibility.css' | asset_url | stylesheet_tag }}
+
+
+    {% render 'style-tags' %}
+
+    <script defer src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script defer src="{{ 'theme-global.js' | asset_url }}"></script>
+    <script defer src="{{ 'app.min.js' | asset_url }}"></script>
+
+    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"56362957"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+
+    {%- render 'header-scripts.zipifypages', renderctx: 'thm' -%}{{ content_for_header }} 
+
+<style>
+  .template-search:has(.search__input[value="special"]) #ProductGridContainer,
+  .template-search:has(.search__input[value="SPECIAL"]) #ProductGridContainer {
+     display: none !important;
+  }
+</style>
+
+    
+                      {% include 'bss-product-labels-configs' %}
+<!-- VIBE Script -->
+<script>
+  !function(v,i,b,e,c,o){if(!v[c]){var s=v[c]=function(){s.process?s.process.apply(s,arguments):s.queue.push(arguments)};s.queue=[],s.b=1*new Date;var t=i.createElement(b);t.async=!0,t.src=e;var n=i.getElementsByTagName(b)[0];n.parentNode.insertBefore(t,n)}}(window,document,"script","https://s.vibe.co/vbpx.js","vbpx");
+  vbpx('init','pp9pKS');
+  vbpx('event', 'page_view');
+</script>  
+
+<!--MNTN Tracking Pixel-->
+<!-- INSTALL ON ALL PAGES OF SITE-->
+<script type="text/javascript">
+	(function(){"use strict";var e=null,b="4.0.0",
+	n="38795",
+	additional="term=value",
+	t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.mountain.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+    
+  </head>
+                 
+
+  <body
+    id="sf-theme"
+    class="{{ body_classes }} relative min-h-screen{% if customer %} customer-logged-in{% endif %}"
+    {% if template.name == 'product' %}
+      data-product-id="{{ product.id }}"
+    {% endif %}
+  >
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL5W88V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    {%- liquid 
+      render 'theme-data'
+      sections 'header-group'
+      render 'scroll-top-button'
+    -%}
+
+    <main role="main" id="MainContent">
+        {% section 'bottom-banner' %}
+      {{ content_for_layout }}
+      <div id="cart-drawer-container"></div>
+    </main>
+
+
+      {% section 'pre-footer' %}
+    {%- sections 'footer-group' -%}
+
+    {% render 'custom-code-body' %}
+    {% render 'foxkit-messenger' %}
+    {% render 'script-tags' %}
+    {% render 'cookie-banner' %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    {{ 'accessibility.js' | asset_url | script_tag }}
+    <script defer src="{{ 'foxkit-app.min.js' | asset_url }}"></script>
+    <script defer src="{{ 'quick-view.min.js' | asset_url }}"></script>
+    <script defer src="{{ 'product-card-swatch.min.js' | asset_url }}"></script>
+    {%- if settings.enable_predictive_search -%}
+      <script defer src="{{ 'predictive-search.min.js' | asset_url }}"></script>
+    {%- endif -%}
+    {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
+      <script defer src="{{ 'gift-wrapping.min.js' | asset_url }}"></script>
+    {%- endif -%}
+  
+ {% include 'smile-initializer' %}
+
+  <script defer src="//app.shippingratescalculator.com/js/core/main.min.js?timestamp=1685450990&shop=in-your-face-by-denice-duff.myshopify.com"></script>
+{%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}
+{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}
+{% comment %} {% render 'back-to-the-top' %} {% endcomment %}
+</body>
+
+</html>

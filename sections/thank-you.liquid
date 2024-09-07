@@ -1,0 +1,227 @@
+
+<div class="wrapper page-margin fullwrap">
+  <div class="grid">
+    <div class="grid__item">
+   
+      <div class="rte">
+        {{ page.content }}
+        
+       
+        
+        <div class="wrapper pgrcont">
+          
+          <div class="grid grid-uniform">   
+<div class="grid__item large--one-half medium--one-half ">
+  
+  {% if section.settings.image %}
+  <img class="lazyload hs-lazyload hs-id-58af42f1" data-src="{{ section.settings.image | img_url:'original' }}" />
+  {% endif %}
+  
+  
+            </div>
+            
+<div class="grid__item large--one-half medium--one-half ">
+  
+ <div class="custombanner">
+   
+  <h2> <span>{{ section.settings.heading }}</span> 
+   </h2>
+
+</div>
+  
+{{ section.settings.rte1  }}
+  
+   <h3>{{  section.settings.subheading }}</h3>
+  </div>
+</div> 
+          
+          
+<div class="grid grid-uniform socil">
+<div class="index__column grid__item large--one-third medium--one-third text-center">
+  <a href="https://www.facebook.com/pages/category/Health-Beauty/Inyourfaceskincare-106667727350782/" class="socililink btn" target="_blank">FACEBOOK</a>
+</div>
+<div class="index__column grid__item large--one-third medium--one-third text-center">
+ <a href="https://www.instagram.com/inyourfaceskincare/" class="socililink btn" target="_blank">INSTAGRAM</a>
+</div>
+<div class="index__column grid__item large--one-third medium--one-third text-center">
+ <a href="https://inyourfaceskincare.com/pages/contact-us" class="socililink btn" target="_blank">EMAIL</a>
+</div>
+</div>
+
+   
+          
+</div>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style>
+.pgrcont
+  {
+    max-width:1170px;
+    margin:0 auto;
+    padding:20px;
+  }
+  .grid.grid-uniform
+  {
+    display:flex;
+    flex-direction:row;
+  }
+ 
+  .socililink
+  {
+    color:#fff;border-radius:0px;  
+    font-size:18px;
+        background:  #b5c347;
+    width: 100%;
+  }
+ .socililink:hover
+  {
+    outline:none !important;
+    box-shadow: none;
+    background:#000;
+    color:#fff
+  }
+  .templateTitle
+  {
+    border-bottom:solid 1px #b5c347;
+        padding: 20px 15px;
+  }
+  .pgrcont p
+  {
+    font-size:18px;
+    margin-bottom:15px;
+  }
+  .fullwrap
+  {
+    max-width:100%;
+    width:100%;    
+    padding: 0;
+  }
+
+  .templateTitle
+  {
+    border-bottom:solid 1px #b5c347;
+        padding: 20px 15px;    margin: 0;
+  }
+  .fullwrap
+  {
+    max-width:100%;
+    width:100%;    
+    padding: 0;
+  }
+  .fullwrap h3
+  {
+    font-size:36px; 
+ 
+    line-height:36px;
+    text-transform:none;
+    margin-top: 50px;
+  }
+  .custombanner
+  {
+    color:#000;
+    text-align: left;
+    padding: 0px 0px 0px;
+    margin-bottom: 20px;
+  }
+   .custombanner h2
+  {
+   
+    margin:0px 0 0px 0;
+    padding:0px;
+    text-transform:none;
+  }
+    .custombanner h2 span
+  {
+    font-size:72px;    
+    line-height:72px
+  }
+  .pgrcont.wrapper .grid
+  {
+    padding-top:40px;
+    padding-bottom:40px
+  }
+ 
+.pgrcont.wrapper .grid {
+padding-top: 20px;
+padding-bottom: 0px;
+}
+
+.main-content#MainContent {
+padding-bottom: 20px;
+}
+ .pgrcont .medium--one-third
+  {
+    width:33.333%;
+  }
+  .grid__item 
+  {
+    padding: 15px;
+  }
+  @media(max-width:767px)
+    {
+         .custombanner h2 span
+      {
+     font-size:36px; 
+    line-height:36px
+      }
+      .grid.grid-uniform
+  {
+    flex-direction:column;
+  }
+      .pgrcont .medium--one-third
+  {
+    width:100%;
+  }
+      .grid__item {
+    padding: 15px 0;
+}
+    }
+</style>
+
+{% schema %}
+  {
+    "name": "Thank You",
+    "settings": [
+  {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+{
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+ {
+            "type": "textarea",
+            "id": "rte1",
+            "label": "Textarea"
+        },
+  {
+            "type": "text",
+            "id": "subheading",
+            "label": "Sub Heading"
+        }
+
+],
+  "presets": [
+            {
+                "name": "Thank You",
+                "category": "Thank you"
+            }
+        ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
