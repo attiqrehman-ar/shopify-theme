@@ -145,8 +145,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% render 'foxkit-messenger' %}
     {% render 'script-tags' %}
     {% render 'cookie-banner' %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    {{ 'accessibility.js' | asset_url | script_tag }}
+
     <script defer src="{{ 'foxkit-app.min.js' | asset_url }}"></script>
     <script defer src="{{ 'quick-view.min.js' | asset_url }}"></script>
     <script defer src="{{ 'product-card-swatch.min.js' | asset_url }}"></script>

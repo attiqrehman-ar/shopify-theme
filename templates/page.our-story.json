@@ -4,6 +4,15 @@
       "type": "page",
       "settings": {}
     },
+    "custom_liquid_DdBkgW": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<h1 class=\"hh\">\n  IN YOUR FACE SKINCARE is the result of five generations of family recipes and a lot of love.\n<\/h1>",
+        "custom_class": ""
+      }
+    },
     "16452857926e0a4b01": {
       "type": "image-with-text-2",
       "disabled": true,
@@ -64,15 +73,24 @@
             "alignment": "center",
             "block_custom_class": ""
           }
+        },
+        "html_GC8fhH": {
+          "type": "html",
+          "settings": {
+            "code": "<style> \n.hh{\nfont-family: 'SF-Heading-font';\nfont-weight:400;\nfont-style:normal;\ncolor:black;\nfont-size:34px;\nline-height:44px;\ntext-align:center;\nmargin-left:20px;\n\n}\n<\/style>\n<h1 class=\"hh\"> IN YOUR FACE SKINCARE is the result of five generations of family recipes and a lot of love.<\/h1>",
+            "width": "100%",
+            "block_custom_class": ""
+          }
         }
       },
       "block_order": [
         "16490002242a926a30-0",
-        "16490002242a926a30-1"
+        "16490002242a926a30-1",
+        "html_GC8fhH"
       ],
       "settings": {
         "hideondesk": false,
-        "heading": "IN YOUR FACE SKINCARE is the result offive generations of family recipes and a lot of love.",
+        "heading": "",
         "subheading": "",
         "description": "",
         "header_alignment": "center",
@@ -327,6 +345,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_DdBkgW",
     "16452857926e0a4b01",
     "16490002245672e6c3",
     "16457648656cc07e72",

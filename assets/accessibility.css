@@ -136,3 +136,30 @@ h2.faqs-h2 {
     cursor: pointer;
     text-decoration: none;
 } */
+
+h1.hh {
+    font-family: "SF-Heading-font";
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  @media (max-width: 768px) {
+    .hh {
+      font-size: 28px;
+      line-height: 36px;
+      margin-left: 20px;
+    }
+  }
+
+  /* Responsive for mobile screens */
+  @media (max-width: 480px) {
+    .hh {
+      font-size: 24px;
+      line-height: 32px;
+      margin-left: 20px;
+    }
+  }
